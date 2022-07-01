@@ -1,0 +1,26 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/bullethole.png
+        AlphaDiscardThreshold : 0.0
+        VertexLighting : false
+        UseMaterialColors : false
+        UseVertexColor : false
+        SteepParallax : false
+        Ambient : 1 1 1 1
+        HardwareShadows : false
+        EnvMapAsSphereMap : false
+        SeparateTexCoord : false
+        PackedNormalParallax : false
+        BackfaceShadows : false
+        UseInstancing : false
+     }
+    AdditionalRenderState {
+      PointSprite Off
+      ColorWrite On
+      DepthTest Off
+      FaceCull Back
+      DepthWrite Off
+      AlphaTestFalloff 0.0
+      Blend Off
+    }
+}

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?><Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Module Codepage="1252" Id="ultra_mega_gamer_gungame_online_Module" Language="1033" Version="1.0.0.0">
+        <Package Description="ultra mega gamer gungame online" Id="e6b204fe-21e5-4271-a22a-730050ad9e47" InstallerVersion="200" Languages="1033" Manufacturer="DGC Productions" Platform="x64" SummaryCodepage="1252"/>
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="_1" Name="ultra mega gamer gungame online">
+                <Component Guid="75f851fb-4b64-4874-a7ee-7616eea17cb5" Id="_2" Win64="yes">
+                    <File Id="_2f" KeyPath="yes" Name="icon.ico" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\icon.ico"/>
+                </Component>
+                <Directory Id="_3" Name="jre">
+                    <Directory Id="_4" Name="bin">
+                        <Component Guid="9345e824-0ee3-48cd-b093-9478fa6979a2" Id="_5" Win64="yes">
+                            <File Id="_5f" KeyPath="yes" Name="api-ms-win-core-console-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-console-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="e3b2996f-6132-4471-b1d1-91c29f91126d" Id="_6" Win64="yes">
+                            <File Id="_6f" KeyPath="yes" Name="api-ms-win-core-console-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-console-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="5c690ef1-3ea0-4cfb-954f-55c4ba85abc2" Id="_7" Win64="yes">
+                            <File Id="_7f" KeyPath="yes" Name="api-ms-win-core-datetime-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-datetime-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="42337655-4ac7-49bf-b58c-77cc6f28ae16" Id="_8" Win64="yes">
+                            <File Id="_8f" KeyPath="yes" Name="api-ms-win-core-debug-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-debug-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="1395f27c-7d83-4e41-8e5f-4f0dd8776f51" Id="_9" Win64="yes">
+                            <File Id="_9f" KeyPath="yes" Name="api-ms-win-core-errorhandling-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="6f0fd29f-f80b-44ae-8aa4-45d061fa3f40" Id="_10" Win64="yes">
+                            <File Id="_10f" KeyPath="yes" Name="api-ms-win-core-file-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-file-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="48a16f0b-3f53-412f-85d4-ae058472985f" Id="_11" Win64="yes">
+                            <File Id="_11f" KeyPath="yes" Name="api-ms-win-core-file-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-file-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="6451d117-98ff-453d-9c05-49c66460b765" Id="_12" Win64="yes">
+                            <File Id="_12f" KeyPath="yes" Name="api-ms-win-core-file-l2-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-file-l2-1-0.dll"/>
+                        </Component>
+                        <Component Guid="236e9423-79f0-4600-ae88-6a9d217b9ddd" Id="_13" Win64="yes">
+                            <File Id="_13f" KeyPath="yes" Name="api-ms-win-core-handle-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-handle-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="5ce6e386-e287-4361-8caa-8a9cbafb3ebc" Id="_14" Win64="yes">
+                            <File Id="_14f" KeyPath="yes" Name="api-ms-win-core-heap-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-heap-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="f35de61f-bc45-4b63-9df4-5c679ec97c45" Id="_15" Win64="yes">
+                            <File Id="_15f" KeyPath="yes" Name="api-ms-win-core-interlocked-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="058b8b8a-db97-4733-b80f-543c09b4a39b" Id="_16" Win64="yes">
+                            <File Id="_16f" KeyPath="yes" Name="api-ms-win-core-libraryloader-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="6714e8ea-a1a2-44c5-a103-cc70dc1c7cdf" Id="_17" Win64="yes">
+                            <File Id="_17f" KeyPath="yes" Name="api-ms-win-core-localization-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-localization-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="c1220c35-230b-405c-b56e-0689cdae7490" Id="_18" Win64="yes">
+                            <File Id="_18f" KeyPath="yes" Name="api-ms-win-core-memory-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-memory-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="bf335092-09b2-4ffc-9338-aba7ca28bd9b" Id="_19" Win64="yes">
+                            <File Id="_19f" KeyPath="yes" Name="api-ms-win-core-namedpipe-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="e9413ff1-5932-454a-8893-23a42a83ad6a" Id="_20" Win64="yes">
+                            <File Id="_20f" KeyPath="yes" Name="api-ms-win-core-processenvironment-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="fedbaa7f-8f51-48c9-8383-018a49bde3b0" Id="_21" Win64="yes">
+                            <File Id="_21f" KeyPath="yes" Name="api-ms-win-core-processthreads-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="16982cab-7bfb-4394-9cde-e3e27a1b2687" Id="_22" Win64="yes">
+                            <File Id="_22f" KeyPath="yes" Name="api-ms-win-core-processthreads-l1-1-1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll"/>
+                        </Component>
+                        <Component Guid="6d203fef-837d-4c83-8d1f-5703a0830393" Id="_23" Win64="yes">
+                            <File Id="_23f" KeyPath="yes" Name="api-ms-win-core-profile-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-profile-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="2880f5ce-852e-44e5-8b1a-0b714503ee68" Id="_24" Win64="yes">
+                            <File Id="_24f" KeyPath="yes" Name="api-ms-win-core-rtlsupport-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="f6b42627-003d-469b-9ba2-cd84a9b1db94" Id="_25" Win64="yes">
+                            <File Id="_25f" KeyPath="yes" Name="api-ms-win-core-string-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-string-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="8f435493-4f25-4f43-90b1-4d7d967c2928" Id="_26" Win64="yes">
+                            <File Id="_26f" KeyPath="yes" Name="api-ms-win-core-synch-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-synch-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="255af8be-9d41-4962-8d38-74d8e5a7d3d9" Id="_27" Win64="yes">
+                            <File Id="_27f" KeyPath="yes" Name="api-ms-win-core-synch-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-synch-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="3fb97c38-7064-400f-8215-1fb2117cf2e9" Id="_28" Win64="yes">
+                            <File Id="_28f" KeyPath="yes" Name="api-ms-win-core-sysinfo-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="eecc8068-5d4a-4038-878a-b6c58dd6fa91" Id="_29" Win64="yes">
+                            <File Id="_29f" KeyPath="yes" Name="api-ms-win-core-timezone-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-timezone-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="62773454-0962-4b00-8ac7-0693de1deabf" Id="_30" Win64="yes">
+                            <File Id="_30f" KeyPath="yes" Name="api-ms-win-core-util-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-core-util-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="4a076422-1778-428f-b495-763ce6621252" Id="_31" Win64="yes">
+                            <File Id="_31f" KeyPath="yes" Name="api-ms-win-crt-conio-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-conio-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="5872e422-859d-4179-b768-2ee6f5c686c3" Id="_32" Win64="yes">
+                            <File Id="_32f" KeyPath="yes" Name="api-ms-win-crt-convert-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-convert-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="a4e52af5-3721-41a1-a738-8bf0c577d52d" Id="_33" Win64="yes">
+                            <File Id="_33f" KeyPath="yes" Name="api-ms-win-crt-environment-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-environment-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="19cbb473-56e8-4409-b1c9-8e283494f549" Id="_34" Win64="yes">
+                            <File Id="_34f" KeyPath="yes" Name="api-ms-win-crt-filesystem-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="aa97697c-c4eb-4eb0-8fe6-ba03318f7296" Id="_35" Win64="yes">
+                            <File Id="_35f" KeyPath="yes" Name="api-ms-win-crt-heap-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-heap-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="5a0f7748-9102-4ba7-9376-321ae2d0be9d" Id="_36" Win64="yes">
+                            <File Id="_36f" KeyPath="yes" Name="api-ms-win-crt-locale-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-locale-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="329c5d43-4bed-4d55-9d5e-f224377d81ed" Id="_37" Win64="yes">
+                            <File Id="_37f" KeyPath="yes" Name="api-ms-win-crt-math-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-math-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="473fc513-e59c-4ca3-aee9-cf864d4a92fb" Id="_38" Win64="yes">
+                            <File Id="_38f" KeyPath="yes" Name="api-ms-win-crt-multibyte-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="4f100901-b00c-4fed-91ff-ca1583634928" Id="_39" Win64="yes">
+                            <File Id="_39f" KeyPath="yes" Name="api-ms-win-crt-private-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-private-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="0dc9480f-aeb9-4d4f-b767-8421d51999f3" Id="_40" Win64="yes">
+                            <File Id="_40f" KeyPath="yes" Name="api-ms-win-crt-process-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-process-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="c3c1ebd2-bb4c-4b0d-9574-48c8c3e36619" Id="_41" Win64="yes">
+                            <File Id="_41f" KeyPath="yes" Name="api-ms-win-crt-runtime-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="078b82c5-793c-42ea-82ca-49979d461bee" Id="_42" Win64="yes">
+                            <File Id="_42f" KeyPath="yes" Name="api-ms-win-crt-stdio-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="3f4b0dc0-1545-4522-afd5-689b6e9f7ef5" Id="_43" Win64="yes">
+                            <File Id="_43f" KeyPath="yes" Name="api-ms-win-crt-string-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-string-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="0f97795c-a8a8-4c42-8a57-f83d453471e5" Id="_44" Win64="yes">
+                            <File Id="_44f" KeyPath="yes" Name="api-ms-win-crt-time-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-time-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="e9733d27-ca81-40f9-9b61-594943875734" Id="_45" Win64="yes">
+                            <File Id="_45f" KeyPath="yes" Name="api-ms-win-crt-utility-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\api-ms-win-crt-utility-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="65dac116-92c0-4a2e-95e8-40fbec1c88e5" Id="_46" Win64="yes">
+                            <File Id="_46f" KeyPath="yes" Name="awt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\awt.dll"/>
+                        </Component>
+                        <Component Guid="395d4b7e-a220-459a-aa0e-8e0f7ef32873" Id="_47" Win64="yes">
+                            <File Id="_47f" KeyPath="yes" Name="bci.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\bci.dll"/>
+                        </Component>
+                        <Component Guid="9fc1c7b9-c376-4b0f-b194-1f1a554ce2ae" Id="_48" Win64="yes">
+                            <File Id="_48f" KeyPath="yes" Name="dcpr.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\dcpr.dll"/>
+                        </Component>
+                        <Component Guid="f73c470e-3348-471b-aefa-13f5fa77bef1" Id="_49" Win64="yes">
+                            <File Id="_49f" KeyPath="yes" Name="decora_sse.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\decora_sse.dll"/>
+                        </Component>
+                        <Component Guid="6521f3a8-005a-4f6f-b16f-9cd92dae1da4" Id="_50" Win64="yes">
+                            <File Id="_50f" KeyPath="yes" Name="deploy.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\deploy.dll"/>
+                        </Component>
+                        <Directory Id="_51" Name="dtplugin">
+                            <Component Guid="a17b805f-69d8-4b3d-b146-c6ec2639c91e" Id="_52" Win64="yes">
+                                <File Id="_52f" KeyPath="yes" Name="deployJava1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\dtplugin\deployJava1.dll"/>
+                            </Component>
+                            <Component Guid="c0cf70d4-3f48-4fb2-9211-461f3eba28ec" Id="_53" Win64="yes">
+                                <File Id="_53f" KeyPath="yes" Name="npdeployJava1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\dtplugin\npdeployJava1.dll"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="a74c2106-c294-456a-8ebe-0955a5f51c1d" Id="_54" Win64="yes">
+                            <File Id="_54f" KeyPath="yes" Name="dt_shmem.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\dt_shmem.dll"/>
+                        </Component>
+                        <Component Guid="8946e2ec-fe5b-4132-abb7-841fc0a1913e" Id="_55" Win64="yes">
+                            <File Id="_55f" KeyPath="yes" Name="dt_socket.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\dt_socket.dll"/>
+                        </Component>
+                        <Component Guid="390dd976-62d5-47a2-a24d-1fa0f1a280d6" Id="_56" Win64="yes">
+                            <File Id="_56f" KeyPath="yes" Name="eula.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\eula.dll"/>
+                        </Component>
+                        <Component Guid="0541c28a-af6b-4cac-803d-4d68d073af49" Id="_57" Win64="yes">
+                            <File Id="_57f" KeyPath="yes" Name="fontmanager.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\fontmanager.dll"/>
+                        </Component>
+                        <Component Guid="15849099-b847-410d-b241-e1418efb0506" Id="_58" Win64="yes">
+                            <File Id="_58f" KeyPath="yes" Name="fxplugins.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\fxplugins.dll"/>
+                        </Component>
+                        <Component Guid="27c21802-d940-4cd5-9b36-7c8f1c75051b" Id="_59" Win64="yes">
+                            <File Id="_59f" KeyPath="yes" Name="glass.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\glass.dll"/>
+                        </Component>
+                        <Component Guid="199d3bd8-a091-4adb-b6bf-b714c212ea72" Id="_60" Win64="yes">
+                            <File Id="_60f" KeyPath="yes" Name="glib-lite.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\glib-lite.dll"/>
+                        </Component>
+                        <Component Guid="8c48531c-fe2c-408f-9ae9-aa0286ca9f55" Id="_61" Win64="yes">
+                            <File Id="_61f" KeyPath="yes" Name="gstreamer-lite.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\gstreamer-lite.dll"/>
+                        </Component>
+                        <Component Guid="ab2967e2-6109-4523-bf38-5b5c07e7374b" Id="_62" Win64="yes">
+                            <File Id="_62f" KeyPath="yes" Name="hprof.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\hprof.dll"/>
+                        </Component>
+                        <Component Guid="52bbad2b-ec15-462e-92fa-b1accee6cfde" Id="_63" Win64="yes">
+                            <File Id="_63f" KeyPath="yes" Name="instrument.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\instrument.dll"/>
+                        </Component>
+                        <Component Guid="d6c6ec59-1186-481b-ba48-f996ce5cba63" Id="_64" Win64="yes">
+                            <File Id="_64f" KeyPath="yes" Name="j2pcsc.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\j2pcsc.dll"/>
+                        </Component>
+                        <Component Guid="584ca601-ac9e-4b7a-8e6d-81202d7a8802" Id="_65" Win64="yes">
+                            <File Id="_65f" KeyPath="yes" Name="j2pkcs11.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\j2pkcs11.dll"/>
+                        </Component>
+                        <Component Guid="a5d5d032-01b7-48a5-b13c-94b21381155a" Id="_66" Win64="yes">
+                            <File Id="_66f" KeyPath="yes" Name="jaas_nt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jaas_nt.dll"/>
+                        </Component>
+                        <Component Guid="ca14c782-7837-4872-80b7-308c657d73e7" Id="_67" Win64="yes">
+                            <File Id="_67f" KeyPath="yes" Name="jabswitch.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jabswitch.exe"/>
+                        </Component>
+                        <Component Guid="6badfaa8-2f92-451d-bd73-535f481ec3d6" Id="_68" Win64="yes">
+                            <File Id="_68f" KeyPath="yes" Name="java-rmi.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\java-rmi.exe"/>
+                        </Component>
+                        <Component Guid="9e894e5c-f210-4a9e-b117-cbb277397bde" Id="_69" Win64="yes">
+                            <File Id="_69f" KeyPath="yes" Name="java.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\java.dll"/>
+                        </Component>
+                        <Component Guid="b420e927-d6de-482c-ba83-de03a408fb34" Id="_70" Win64="yes">
+                            <File Id="_70f" KeyPath="yes" Name="java.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\java.exe"/>
+                        </Component>
+                        <Component Guid="edf01a61-4209-40fa-8cc2-a1fae189ddd2" Id="_71" Win64="yes">
+                            <File Id="_71f" KeyPath="yes" Name="JavaAccessBridge-64.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\JavaAccessBridge-64.dll"/>
+                        </Component>
+                        <Component Guid="9d7e7007-32ce-49c4-99be-0579146908aa" Id="_72" Win64="yes">
+                            <File Id="_72f" KeyPath="yes" Name="javacpl.cpl" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\javacpl.cpl"/>
+                        </Component>
+                        <Component Guid="429e5bd6-6346-4628-ae45-fd6051ff585b" Id="_73" Win64="yes">
+                            <File Id="_73f" KeyPath="yes" Name="javacpl.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\javacpl.exe"/>
+                        </Component>
+                        <Component Guid="07473e7d-758c-43c5-ab21-e45b89ae7e1f" Id="_74" Win64="yes">
+                            <File Id="_74f" KeyPath="yes" Name="javafx_font.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\javafx_font.dll"/>
+                        </Component>
+                        <Component Guid="b8d84023-a41e-43d7-860a-978ef67b1646" Id="_75" Win64="yes">
+                            <File Id="_75f" KeyPath="yes" Name="javafx_iio.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\javafx_iio.dll"/>
+                        </Component>
+                        <Component Guid="ba20a4f2-0542-4b5e-b760-95fca2f825e5" Id="_76" Win64="yes">
+                            <File Id="_76f" KeyPath="yes" Name="javaw.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\javaw.exe"/>
+                        </Component>
+                        <Component Guid="7bd4cd23-1fc1-499c-b2ef-c8dce10a9493" Id="_77" Win64="yes">
+                            <File Id="_77f" KeyPath="yes" Name="javaws.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\javaws.exe"/>
+                        </Component>
+                        <Component Guid="247806ce-60f4-4fd9-85f2-4d1b2dc57d28" Id="_78" Win64="yes">
+                            <File Id="_78f" KeyPath="yes" Name="java_crw_demo.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\java_crw_demo.dll"/>
+                        </Component>
+                        <Component Guid="51fa9ec1-41fd-4ecf-b44c-427d76961c5d" Id="_79" Win64="yes">
+                            <File Id="_79f" KeyPath="yes" Name="jawt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jawt.dll"/>
+                        </Component>
+                        <Component Guid="6107a5ad-4303-4b95-a150-a8175117ef4f" Id="_80" Win64="yes">
+                            <File Id="_80f" KeyPath="yes" Name="JAWTAccessBridge-64.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\JAWTAccessBridge-64.dll"/>
+                        </Component>
+                        <Component Guid="4e0adc54-8f05-487c-8673-4c3ec89a3ca2" Id="_81" Win64="yes">
+                            <File Id="_81f" KeyPath="yes" Name="jdwp.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jdwp.dll"/>
+                        </Component>
+                        <Component Guid="888ac8d0-32b5-45c8-8ce5-59c7699e91cc" Id="_82" Win64="yes">
+                            <File Id="_82f" KeyPath="yes" Name="jfr.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jfr.dll"/>
+                        </Component>
+                        <Component Guid="4151c5a3-074e-40f9-89ca-301cae164920" Id="_83" Win64="yes">
+                            <File Id="_83f" KeyPath="yes" Name="jfxmedia.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jfxmedia.dll"/>
+                        </Component>
+                        <Component Guid="e63b5919-2127-473f-a600-a8f7613e0f82" Id="_84" Win64="yes">
+                            <File Id="_84f" KeyPath="yes" Name="jfxwebkit.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jfxwebkit.dll"/>
+                        </Component>
+                        <Component Guid="7211d2d8-d5a9-4643-bcdd-a07d009e3769" Id="_85" Win64="yes">
+                            <File Id="_85f" KeyPath="yes" Name="jjs.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jjs.exe"/>
+                        </Component>
+                        <Component Guid="4e9574d6-0dda-4809-9bab-682dec80c729" Id="_86" Win64="yes">
+                            <File Id="_86f" KeyPath="yes" Name="jli.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jli.dll"/>
+                        </Component>
+                        <Component Guid="73e18a2d-9002-44ad-b860-d5eab7855aeb" Id="_87" Win64="yes">
+                            <File Id="_87f" KeyPath="yes" Name="jp2iexp.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jp2iexp.dll"/>
+                        </Component>
+                        <Component Guid="44b23c7a-c7f0-46b9-9b28-73d337159273" Id="_88" Win64="yes">
+                            <File Id="_88f" KeyPath="yes" Name="jp2launcher.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jp2launcher.exe"/>
+                        </Component>
+                        <Component Guid="4223ac8a-b547-4086-8467-565a6474da88" Id="_89" Win64="yes">
+                            <File Id="_89f" KeyPath="yes" Name="jp2native.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jp2native.dll"/>
+                        </Component>
+                        <Component Guid="a0b1b57c-7f46-478a-ae30-46b89c0351b9" Id="_90" Win64="yes">
+                            <File Id="_90f" KeyPath="yes" Name="jp2ssv.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jp2ssv.dll"/>
+                        </Component>
+                        <Component Guid="89b7bcaf-8246-4da0-9cee-b755f308a74d" Id="_91" Win64="yes">
+                            <File Id="_91f" KeyPath="yes" Name="jpeg.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jpeg.dll"/>
+                        </Component>
+                        <Component Guid="63626040-9581-40a6-b2ee-ffa04ce6b81f" Id="_92" Win64="yes">
+                            <File Id="_92f" KeyPath="yes" Name="jsdt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jsdt.dll"/>
+                        </Component>
+                        <Component Guid="b6d35f10-1d3a-4def-9153-a0fdfd49d2bb" Id="_93" Win64="yes">
+                            <File Id="_93f" KeyPath="yes" Name="jsound.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jsound.dll"/>
+                        </Component>
+                        <Component Guid="86b0a1e9-c8c8-456f-93b1-572b84803494" Id="_94" Win64="yes">
+                            <File Id="_94f" KeyPath="yes" Name="jsoundds.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\jsoundds.dll"/>
+                        </Component>
+                        <Component Guid="20ceca32-aa69-4584-8fb7-e46e3585f0fd" Id="_95" Win64="yes">
+                            <File Id="_95f" KeyPath="yes" Name="keytool.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\keytool.exe"/>
+                        </Component>
+                        <Component Guid="f0432df2-73f2-48b0-9fff-f59855335d07" Id="_96" Win64="yes">
+                            <File Id="_96f" KeyPath="yes" Name="kinit.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\kinit.exe"/>
+                        </Component>
+                        <Component Guid="24512997-4c4f-42c8-8f4a-2eb60156ff05" Id="_97" Win64="yes">
+                            <File Id="_97f" KeyPath="yes" Name="klist.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\klist.exe"/>
+                        </Component>
+                        <Component Guid="133f4c4d-147b-4e31-9394-cbc8baf4d4f2" Id="_98" Win64="yes">
+                            <File Id="_98f" KeyPath="yes" Name="ktab.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\ktab.exe"/>
+                        </Component>
+                        <Component Guid="8f7af9eb-32fa-4941-a8aa-d8bb96f796f0" Id="_99" Win64="yes">
+                            <File Id="_99f" KeyPath="yes" Name="lcms.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\lcms.dll"/>
+                        </Component>
+                        <Component Guid="bbc0a086-c34e-42e2-9488-6dfb967acf64" Id="_100" Win64="yes">
+                            <File Id="_100f" KeyPath="yes" Name="management.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\management.dll"/>
+                        </Component>
+                        <Component Guid="3d5be2f0-935c-4512-a9fb-1594f1cdc713" Id="_101" Win64="yes">
+                            <File Id="_101f" KeyPath="yes" Name="mlib_image.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\mlib_image.dll"/>
+                        </Component>
+                        <Component Guid="7e344529-5691-4652-9b00-6c745145eb8a" Id="_102" Win64="yes">
+                            <File Id="_102f" KeyPath="yes" Name="msvcp140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\msvcp140.dll"/>
+                        </Component>
+                        <Component Guid="026eb2db-9f94-46a1-87af-fb079da0d32f" Id="_103" Win64="yes">
+                            <File Id="_103f" KeyPath="yes" Name="net.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\net.dll"/>
+                        </Component>
+                        <Component Guid="52ed2be8-11c3-4218-832e-05b4ab2e6c13" Id="_104" Win64="yes">
+                            <File Id="_104f" KeyPath="yes" Name="nio.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\nio.dll"/>
+                        </Component>
+                        <Component Guid="02226e53-a2c5-4e3b-906d-bc6b6ddea6cc" Id="_105" Win64="yes">
+                            <File Id="_105f" KeyPath="yes" Name="npt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\npt.dll"/>
+                        </Component>
+                        <Component Guid="13534030-5acc-4c54-ba08-6e1d283be316" Id="_106" Win64="yes">
+                            <File Id="_106f" KeyPath="yes" Name="orbd.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\orbd.exe"/>
+                        </Component>
+                        <Component Guid="39d5f120-4327-4a0e-b24e-729ed0ba723f" Id="_107" Win64="yes">
+                            <File Id="_107f" KeyPath="yes" Name="pack200.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\pack200.exe"/>
+                        </Component>
+                        <Directory Id="_108" Name="plugin2">
+                            <Component Guid="fb029b10-4aed-4561-a10e-db560f8f51ad" Id="_109" Win64="yes">
+                                <File Id="_109f" KeyPath="yes" Name="msvcp140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\plugin2\msvcp140.dll"/>
+                            </Component>
+                            <Component Guid="4844bf85-11ef-4ca9-bebe-217b663a9901" Id="_110" Win64="yes">
+                                <File Id="_110f" KeyPath="yes" Name="npjp2.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\plugin2\npjp2.dll"/>
+                            </Component>
+                            <Component Guid="1fdde89f-bff4-48ea-b8ea-94fd0f20eea2" Id="_111" Win64="yes">
+                                <File Id="_111f" KeyPath="yes" Name="vcruntime140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\plugin2\vcruntime140.dll"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="5e197acf-b457-4103-95ee-f41b979b643e" Id="_112" Win64="yes">
+                            <File Id="_112f" KeyPath="yes" Name="policytool.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\policytool.exe"/>
+                        </Component>
+                        <Component Guid="afaedc53-ecf1-40bd-befd-4ca4468e7663" Id="_113" Win64="yes">
+                            <File Id="_113f" KeyPath="yes" Name="prism_common.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\prism_common.dll"/>
+                        </Component>
+                        <Component Guid="9bd65d7c-1767-4d2c-b31d-38cf0b484048" Id="_114" Win64="yes">
+                            <File Id="_114f" KeyPath="yes" Name="prism_d3d.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\prism_d3d.dll"/>
+                        </Component>
+                        <Component Guid="47aff43b-a0a6-4ad6-894a-7863130ba423" Id="_115" Win64="yes">
+                            <File Id="_115f" KeyPath="yes" Name="prism_sw.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\prism_sw.dll"/>
+                        </Component>
+                        <Component Guid="52adadac-4929-4a76-9fc8-cee7082747ec" Id="_116" Win64="yes">
+                            <File Id="_116f" KeyPath="yes" Name="resource.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\resource.dll"/>
+                        </Component>
+                        <Component Guid="d6a9e0b7-6064-4a6c-968a-207f56e99e69" Id="_117" Win64="yes">
+                            <File Id="_117f" KeyPath="yes" Name="rmid.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\rmid.exe"/>
+                        </Component>
+                        <Component Guid="6a1203cf-a190-4f8f-9594-ea80555daa02" Id="_118" Win64="yes">
+                            <File Id="_118f" KeyPath="yes" Name="rmiregistry.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\rmiregistry.exe"/>
+                        </Component>
+                        <Directory Id="_119" Name="server">
+                            <Component Guid="fbbf9d4d-95d5-406c-9b92-77df67719884" Id="_120" Win64="yes">
+                                <File Id="_120f" KeyPath="yes" Name="classes.jsa" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\server\classes.jsa"/>
+                            </Component>
+                            <Component Guid="9bb21e15-4e1f-4100-8a27-15fc6f0ec0bd" Id="_121" Win64="yes">
+                                <File Id="_121f" KeyPath="yes" Name="jvm.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\server\jvm.dll"/>
+                            </Component>
+                            <Component Guid="06ac4fb3-6a9b-40ae-b684-ab0fab00f2b5" Id="_122" Win64="yes">
+                                <File Id="_122f" KeyPath="yes" Name="Xusage.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\server\Xusage.txt"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="ca2c3dd9-abbc-4de0-84bc-0d844f442038" Id="_123" Win64="yes">
+                            <File Id="_123f" KeyPath="yes" Name="servertool.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\servertool.exe"/>
+                        </Component>
+                        <Component Guid="c068ec24-0f7f-4dc2-b1d1-f273ae2a315b" Id="_124" Win64="yes">
+                            <File Id="_124f" KeyPath="yes" Name="splashscreen.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\splashscreen.dll"/>
+                        </Component>
+                        <Component Guid="bdff6a19-3b5d-4d3c-8226-28792eb886be" Id="_125" Win64="yes">
+                            <File Id="_125f" KeyPath="yes" Name="ssv.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\ssv.dll"/>
+                        </Component>
+                        <Component Guid="49d4d063-f0fb-4c41-8e51-1410a98bf05f" Id="_126" Win64="yes">
+                            <File Id="_126f" KeyPath="yes" Name="ssvagent.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\ssvagent.exe"/>
+                        </Component>
+                        <Component Guid="1f44fa5b-29c7-41ee-ace3-ad916f668766" Id="_127" Win64="yes">
+                            <File Id="_127f" KeyPath="yes" Name="sunec.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\sunec.dll"/>
+                        </Component>
+                        <Component Guid="3219e8bd-4108-41d9-b9c7-566eb4f1e2e8" Id="_128" Win64="yes">
+                            <File Id="_128f" KeyPath="yes" Name="sunmscapi.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\sunmscapi.dll"/>
+                        </Component>
+                        <Component Guid="18dae813-28f1-4ccf-b12f-2bb4ac74ffca" Id="_129" Win64="yes">
+                            <File Id="_129f" KeyPath="yes" Name="t2k.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\t2k.dll"/>
+                        </Component>
+                        <Component Guid="52da987f-d304-448d-9ef1-08cb3adf3139" Id="_130" Win64="yes">
+                            <File Id="_130f" KeyPath="yes" Name="tnameserv.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\tnameserv.exe"/>
+                        </Component>
+                        <Component Guid="8eb79c3a-7aaf-4d45-8cdd-e6d60788e0b6" Id="_131" Win64="yes">
+                            <File Id="_131f" KeyPath="yes" Name="ucrtbase.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\ucrtbase.dll"/>
+                        </Component>
+                        <Component Guid="d311f621-e07b-424b-91ab-824daede886a" Id="_132" Win64="yes">
+                            <File Id="_132f" KeyPath="yes" Name="unpack.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\unpack.dll"/>
+                        </Component>
+                        <Component Guid="9b1498e1-17ee-452e-9b87-3213c9f34061" Id="_133" Win64="yes">
+                            <File Id="_133f" KeyPath="yes" Name="unpack200.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\unpack200.exe"/>
+                        </Component>
+                        <Component Guid="cf1c8f30-f081-4972-884c-9e8c0a42191e" Id="_134" Win64="yes">
+                            <File Id="_134f" KeyPath="yes" Name="vcruntime140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\vcruntime140.dll"/>
+                        </Component>
+                        <Component Guid="3deaff20-2611-415b-8eae-c8e78f8b568d" Id="_135" Win64="yes">
+                            <File Id="_135f" KeyPath="yes" Name="vcruntime140_1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\vcruntime140_1.dll"/>
+                        </Component>
+                        <Component Guid="84172f66-5b0b-4b96-b2ab-e7ea82c3c507" Id="_136" Win64="yes">
+                            <File Id="_136f" KeyPath="yes" Name="verify.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\verify.dll"/>
+                        </Component>
+                        <Component Guid="ce3241c2-eb05-4507-b7b8-9d9f43a5387a" Id="_137" Win64="yes">
+                            <File Id="_137f" KeyPath="yes" Name="w2k_lsa_auth.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\w2k_lsa_auth.dll"/>
+                        </Component>
+                        <Component Guid="923bdecd-5970-467d-a667-b085be88a8ef" Id="_138" Win64="yes">
+                            <File Id="_138f" KeyPath="yes" Name="WindowsAccessBridge-64.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\WindowsAccessBridge-64.dll"/>
+                        </Component>
+                        <Component Guid="8bb3e2f3-ecfc-4f77-bc39-876d15884c6c" Id="_139" Win64="yes">
+                            <File Id="_139f" KeyPath="yes" Name="wsdetect.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\wsdetect.dll"/>
+                        </Component>
+                        <Component Guid="487750d6-82d5-4507-b861-42a760b6a308" Id="_140" Win64="yes">
+                            <File Id="_140f" KeyPath="yes" Name="zip.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\bin\zip.dll"/>
+                        </Component>
+                    </Directory>
+                    <Component Guid="92e5e1d9-9da7-437e-9bfa-b2d8c9014c69" Id="_141" Win64="yes">
+                        <File Id="_141f" KeyPath="yes" Name="COPYRIGHT" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\COPYRIGHT"/>
+                    </Component>
+                    <Directory Id="_142" Name="lib">
+                        <Component Guid="a52d4be8-7907-4cd8-8fd5-5d7d6f9ef336" Id="_143" Win64="yes">
+                            <File Id="_143f" KeyPath="yes" Name="accessibility.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\accessibility.properties"/>
+                        </Component>
+                        <Directory Id="_144" Name="amd64">
+                            <Component Guid="6135587e-3fc6-403d-af9c-dc8fe7db7a65" Id="_145" Win64="yes">
+                                <File Id="_145f" KeyPath="yes" Name="jvm.cfg" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\amd64\jvm.cfg"/>
+                            </Component>
+                        </Directory>
+                        <Directory Id="_146" Name="applet"/>
+                        <Component Guid="d7032c02-2c42-481a-87dd-dbc1227dfa8e" Id="_147" Win64="yes">
+                            <File Id="_147f" KeyPath="yes" Name="calendars.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\calendars.properties"/>
+                        </Component>
+                        <Component Guid="8fc6a427-fc4e-4e73-b672-ca4b3964acd1" Id="_148" Win64="yes">
+                            <File Id="_148f" KeyPath="yes" Name="charsets.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\charsets.jar"/>
+                        </Component>
+                        <Component Guid="df9ba72d-7b99-4c40-bdac-5fb97e4528a4" Id="_149" Win64="yes">
+                            <File Id="_149f" KeyPath="yes" Name="classlist" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\classlist"/>
+                        </Component>
+                        <Directory Id="_150" Name="cmm">
+                            <Component Guid="4ca2c49a-5b6e-4333-9553-75d06811577b" Id="_151" Win64="yes">
+                                <File Id="_151f" KeyPath="yes" Name="CIEXYZ.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\cmm\CIEXYZ.pf"/>
+                            </Component>
+                            <Component Guid="9023ab20-6373-4716-9c75-1a041499d563" Id="_152" Win64="yes">
+                                <File Id="_152f" KeyPath="yes" Name="GRAY.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\cmm\GRAY.pf"/>
+                            </Component>
+                            <Component Guid="0d81bebd-b2a5-44fa-9226-76931239293c" Id="_153" Win64="yes">
+                                <File Id="_153f" KeyPath="yes" Name="LINEAR_RGB.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\cmm\LINEAR_RGB.pf"/>
+                            </Component>
+                            <Component Guid="13d4856e-0241-43fd-b8d2-19be7a02d92b" Id="_154" Win64="yes">
+                                <File Id="_154f" KeyPath="yes" Name="PYCC.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\cmm\PYCC.pf"/>
+                            </Component>
+                            <Component Guid="81157705-800f-4a80-bab2-24ef02b16e0d" Id="_155" Win64="yes">
+                                <File Id="_155f" KeyPath="yes" Name="sRGB.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\cmm\sRGB.pf"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="dd9caeca-6c6e-4aa2-802a-f7bc60d3a20b" Id="_156" Win64="yes">
+                            <File Id="_156f" KeyPath="yes" Name="content-types.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\content-types.properties"/>
+                        </Component>
+                        <Component Guid="34fa0d55-5de2-4702-8c97-e232c7472e50" Id="_157" Win64="yes">
+                            <File Id="_157f" KeyPath="yes" Name="currency.data" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\currency.data"/>
+                        </Component>
+                        <Directory Id="_158" Name="deploy">
+                            <Component Guid="b1fd15f9-8403-4e11-b4e8-9b1615eab12c" Id="_159" Win64="yes">
+                                <File Id="_159f" KeyPath="yes" Name="ffjcext.zip" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\ffjcext.zip"/>
+                            </Component>
+                            <Component Guid="328f8c0d-acc2-41cf-bd0c-6e5477af5563" Id="_160" Win64="yes">
+                                <File Id="_160f" KeyPath="yes" Name="messages.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages.properties"/>
+                            </Component>
+                            <Component Guid="299d3837-e99b-43ec-a0db-251de4ae92f7" Id="_161" Win64="yes">
+                                <File Id="_161f" KeyPath="yes" Name="messages_de.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_de.properties"/>
+                            </Component>
+                            <Component Guid="97ed3349-39c5-48d3-8686-1e8f57ed9557" Id="_162" Win64="yes">
+                                <File Id="_162f" KeyPath="yes" Name="messages_es.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_es.properties"/>
+                            </Component>
+                            <Component Guid="c50191d5-57a2-45a2-b743-364664ba7baf" Id="_163" Win64="yes">
+                                <File Id="_163f" KeyPath="yes" Name="messages_fr.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_fr.properties"/>
+                            </Component>
+                            <Component Guid="484d0fcf-c26c-455f-8bdd-974b00094540" Id="_164" Win64="yes">
+                                <File Id="_164f" KeyPath="yes" Name="messages_it.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_it.properties"/>
+                            </Component>
+                            <Component Guid="ba0290ab-f00b-474d-9888-e73d8614a4b4" Id="_165" Win64="yes">
+                                <File Id="_165f" KeyPath="yes" Name="messages_ja.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_ja.properties"/>
+                            </Component>
+                            <Component Guid="154f40bf-1538-4022-9d2c-b7158a4a3c34" Id="_166" Win64="yes">
+                                <File Id="_166f" KeyPath="yes" Name="messages_ko.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_ko.properties"/>
+                            </Component>
+                            <Component Guid="b1411d91-bba7-4ae5-ba57-26d32fbaa2f9" Id="_167" Win64="yes">
+                                <File Id="_167f" KeyPath="yes" Name="messages_pt_BR.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_pt_BR.properties"/>
+                            </Component>
+                            <Component Guid="37aaf9f6-00eb-4e32-bf6f-d7b5534f9286" Id="_168" Win64="yes">
+                                <File Id="_168f" KeyPath="yes" Name="messages_sv.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_sv.properties"/>
+                            </Component>
+                            <Component Guid="9293d703-e720-4b21-9600-a6981129c8aa" Id="_169" Win64="yes">
+                                <File Id="_169f" KeyPath="yes" Name="messages_zh_CN.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_zh_CN.properties"/>
+                            </Component>
+                            <Component Guid="0c8b815a-715f-4d39-b998-432774883bfa" Id="_170" Win64="yes">
+                                <File Id="_170f" KeyPath="yes" Name="messages_zh_HK.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_zh_HK.properties"/>
+                            </Component>
+                            <Component Guid="3f9603e7-957b-4a23-907c-78c26428f9f4" Id="_171" Win64="yes">
+                                <File Id="_171f" KeyPath="yes" Name="messages_zh_TW.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\messages_zh_TW.properties"/>
+                            </Component>
+                            <Component Guid="b1f6f0cb-5789-43c0-82c7-0d84666d246b" Id="_172" Win64="yes">
+                                <File Id="_172f" KeyPath="yes" Name="splash.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\splash.gif"/>
+                            </Component>
+                            <Component Guid="7cb18cc6-e446-4139-9b2e-f88d3f173ea5" Id="_173" Win64="yes">
+                                <File Id="_173f" KeyPath="yes" Name="splash@2x.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\splash@2x.gif"/>
+                            </Component>
+                            <Component Guid="05f661da-b76e-49b2-9f8c-7a391806d3c1" Id="_174" Win64="yes">
+                                <File Id="_174f" KeyPath="yes" Name="splash_11-lic.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\splash_11-lic.gif"/>
+                            </Component>
+                            <Component Guid="9b99b8ea-0f0c-428f-b3a1-909cf3bb3ccd" Id="_175" Win64="yes">
+                                <File Id="_175f" KeyPath="yes" Name="splash_11@2x-lic.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy\splash_11@2x-lic.gif"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="25ab3876-3410-4b1e-8a22-ea76b33d10c8" Id="_176" Win64="yes">
+                            <File Id="_176f" KeyPath="yes" Name="deploy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\deploy.jar"/>
+                        </Component>
+                        <Directory Id="_177" Name="ext">
+                            <Component Guid="80fa36a9-d101-4c4f-9a16-98f1568879b7" Id="_178" Win64="yes">
+                                <File Id="_178f" KeyPath="yes" Name="access-bridge-64.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\access-bridge-64.jar"/>
+                            </Component>
+                            <Component Guid="5a2fa84c-5e5f-4e1c-89ff-14d77cca6050" Id="_179" Win64="yes">
+                                <File Id="_179f" KeyPath="yes" Name="cldrdata.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\cldrdata.jar"/>
+                            </Component>
+                            <Component Guid="02a45e57-25a8-40e6-90fc-1c4c0203fb94" Id="_180" Win64="yes">
+                                <File Id="_180f" KeyPath="yes" Name="dnsns.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\dnsns.jar"/>
+                            </Component>
+                            <Component Guid="f6124e85-dbf0-431c-a9b1-52c5523b889b" Id="_181" Win64="yes">
+                                <File Id="_181f" KeyPath="yes" Name="dns_sd.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\dns_sd.jar"/>
+                            </Component>
+                            <Component Guid="66ff9b24-844e-4bb8-b101-1641e3aeea78" Id="_182" Win64="yes">
+                                <File Id="_182f" KeyPath="yes" Name="jaccess.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\jaccess.jar"/>
+                            </Component>
+                            <Component Guid="c57db1f3-ddb9-40bf-bcd9-f59559e11ae4" Id="_183" Win64="yes">
+                                <File Id="_183f" KeyPath="yes" Name="jfxrt.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\jfxrt.jar"/>
+                            </Component>
+                            <Component Guid="1ecc8259-ebd8-4d79-8b2a-1755a702c8f8" Id="_184" Win64="yes">
+                                <File Id="_184f" KeyPath="yes" Name="localedata.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\localedata.jar"/>
+                            </Component>
+                            <Component Guid="2abb3c0d-e2d0-41bc-9394-ac95dfe38267" Id="_185" Win64="yes">
+                                <File Id="_185f" KeyPath="yes" Name="meta-index" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\meta-index"/>
+                            </Component>
+                            <Component Guid="b36d7a22-1925-4fd7-91c0-9c98b69ff1e9" Id="_186" Win64="yes">
+                                <File Id="_186f" KeyPath="yes" Name="nashorn.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\nashorn.jar"/>
+                            </Component>
+                            <Component Guid="96bcac66-237f-4c9d-b72c-73509d4808a8" Id="_187" Win64="yes">
+                                <File Id="_187f" KeyPath="yes" Name="sunec.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\sunec.jar"/>
+                            </Component>
+                            <Component Guid="cb1e17f9-df63-4d8e-83f0-818e5781537d" Id="_188" Win64="yes">
+                                <File Id="_188f" KeyPath="yes" Name="sunjce_provider.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\sunjce_provider.jar"/>
+                            </Component>
+                            <Component Guid="e9b34aca-3569-4498-9ce1-c60496424889" Id="_189" Win64="yes">
+                                <File Id="_189f" KeyPath="yes" Name="sunmscapi.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\sunmscapi.jar"/>
+                            </Component>
+                            <Component Guid="fcedc584-95ea-420f-8a7c-370d2010594a" Id="_190" Win64="yes">
+                                <File Id="_190f" KeyPath="yes" Name="sunpkcs11.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\sunpkcs11.jar"/>
+                            </Component>
+                            <Component Guid="59f79815-8dcd-4378-9436-e183b21b8a5e" Id="_191" Win64="yes">
+                                <File Id="_191f" KeyPath="yes" Name="zipfs.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\ext\zipfs.jar"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="5ef3eb1b-d2e2-40a7-8311-fd19b376b270" Id="_192" Win64="yes">
+                            <File Id="_192f" KeyPath="yes" Name="flavormap.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\flavormap.properties"/>
+                        </Component>
+                        <Component Guid="2098aed7-c882-4331-9ad6-e9b0c76875c8" Id="_193" Win64="yes">
+                            <File Id="_193f" KeyPath="yes" Name="fontconfig.bfc" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fontconfig.bfc"/>
+                        </Component>
+                        <Component Guid="eaa33e65-d162-4960-890d-16a4108bb1e8" Id="_194" Win64="yes">
+                            <File Id="_194f" KeyPath="yes" Name="fontconfig.properties.src" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fontconfig.properties.src"/>
+                        </Component>
+                        <Directory Id="_195" Name="fonts">
+                            <Component Guid="a23d3ace-739f-4d04-b14b-767c0eaf5005" Id="_196" Win64="yes">
+                                <File Id="_196f" KeyPath="yes" Name="LucidaBrightDemiBold.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaBrightDemiBold.ttf"/>
+                            </Component>
+                            <Component Guid="48ce7a0e-2f8c-420c-8399-7938ad7f07de" Id="_197" Win64="yes">
+                                <File Id="_197f" KeyPath="yes" Name="LucidaBrightDemiItalic.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaBrightDemiItalic.ttf"/>
+                            </Component>
+                            <Component Guid="1e6c0b70-6238-497f-9666-5519bc14a8a6" Id="_198" Win64="yes">
+                                <File Id="_198f" KeyPath="yes" Name="LucidaBrightItalic.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaBrightItalic.ttf"/>
+                            </Component>
+                            <Component Guid="03925650-10d6-48b7-97da-191a564dab52" Id="_199" Win64="yes">
+                                <File Id="_199f" KeyPath="yes" Name="LucidaBrightRegular.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaBrightRegular.ttf"/>
+                            </Component>
+                            <Component Guid="07187028-0eb6-4698-9e32-f4c3f3bf4ecc" Id="_200" Win64="yes">
+                                <File Id="_200f" KeyPath="yes" Name="LucidaSansDemiBold.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaSansDemiBold.ttf"/>
+                            </Component>
+                            <Component Guid="6c985572-40e4-4125-a54a-463e99f3f693" Id="_201" Win64="yes">
+                                <File Id="_201f" KeyPath="yes" Name="LucidaSansRegular.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaSansRegular.ttf"/>
+                            </Component>
+                            <Component Guid="bef98111-fc3b-4e3b-b1c5-d1bf42fc7dc5" Id="_202" Win64="yes">
+                                <File Id="_202f" KeyPath="yes" Name="LucidaTypewriterBold.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaTypewriterBold.ttf"/>
+                            </Component>
+                            <Component Guid="db1a15e9-7fc5-451c-b562-85d536806a9e" Id="_203" Win64="yes">
+                                <File Id="_203f" KeyPath="yes" Name="LucidaTypewriterRegular.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\fonts\LucidaTypewriterRegular.ttf"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="155240b2-3bde-4141-afe8-b253b0d6644c" Id="_204" Win64="yes">
+                            <File Id="_204f" KeyPath="yes" Name="hijrah-config-umalqura.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\hijrah-config-umalqura.properties"/>
+                        </Component>
+                        <Directory Id="_205" Name="images">
+                            <Directory Id="_206" Name="cursors">
+                                <Component Guid="a9c9f034-8dd4-4cf4-98ee-915304e8cd22" Id="_207" Win64="yes">
+                                    <File Id="_207f" KeyPath="yes" Name="cursors.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\cursors.properties"/>
+                                </Component>
+                                <Component Guid="342706c9-0dfa-45c0-b6be-c61178a265b6" Id="_208" Win64="yes">
+                                    <File Id="_208f" KeyPath="yes" Name="invalid32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\invalid32x32.gif"/>
+                                </Component>
+                                <Component Guid="986fcf2b-6412-47a9-9b1e-819387179590" Id="_209" Win64="yes">
+                                    <File Id="_209f" KeyPath="yes" Name="win32_CopyDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\win32_CopyDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="0b2ffb41-0483-471f-9415-dbcaa2ac2cac" Id="_210" Win64="yes">
+                                    <File Id="_210f" KeyPath="yes" Name="win32_CopyNoDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="14e27c0d-1963-49a6-ba18-0c087dd244b1" Id="_211" Win64="yes">
+                                    <File Id="_211f" KeyPath="yes" Name="win32_LinkDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\win32_LinkDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="d769aa8f-801d-4e1c-9b88-0cbc84317c7d" Id="_212" Win64="yes">
+                                    <File Id="_212f" KeyPath="yes" Name="win32_LinkNoDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="38fe4a75-d26b-4982-b8f2-39c2423f8810" Id="_213" Win64="yes">
+                                    <File Id="_213f" KeyPath="yes" Name="win32_MoveDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\win32_MoveDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="2dc2a6d8-b2c1-4eeb-9110-68acfb792704" Id="_214" Win64="yes">
+                                    <File Id="_214f" KeyPath="yes" Name="win32_MoveNoDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif"/>
+                                </Component>
+                            </Directory>
+                        </Directory>
+                        <Component Guid="29d26caf-b49b-4f53-bea2-5e15548829cd" Id="_215" Win64="yes">
+                            <File Id="_215f" KeyPath="yes" Name="javafx.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\javafx.properties"/>
+                        </Component>
+                        <Component Guid="6ca6d28e-b002-4904-9ee4-1cd02f16d66a" Id="_216" Win64="yes">
+                            <File Id="_216f" KeyPath="yes" Name="javaws.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\javaws.jar"/>
+                        </Component>
+                        <Component Guid="1e2d8d27-832d-4fc0-a180-23f65dd2eab5" Id="_217" Win64="yes">
+                            <File Id="_217f" KeyPath="yes" Name="jce.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\jce.jar"/>
+                        </Component>
+                        <Directory Id="_218" Name="jfr">
+                            <Component Guid="9d4870c3-71df-4f87-bfaf-a06abc549e9b" Id="_219" Win64="yes">
+                                <File Id="_219f" KeyPath="yes" Name="default.jfc" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\jfr\default.jfc"/>
+                            </Component>
+                            <Component Guid="6bfc72c8-9a4b-4c46-b19c-5c1f9172a979" Id="_220" Win64="yes">
+                                <File Id="_220f" KeyPath="yes" Name="profile.jfc" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\jfr\profile.jfc"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="94d7200d-ce57-4151-ba24-eb25e5f4f0a6" Id="_221" Win64="yes">
+                            <File Id="_221f" KeyPath="yes" Name="jfr.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\jfr.jar"/>
+                        </Component>
+                        <Component Guid="2c72a5b4-e4e1-4e17-b970-f09f04676be1" Id="_222" Win64="yes">
+                            <File Id="_222f" KeyPath="yes" Name="jfxswt.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\jfxswt.jar"/>
+                        </Component>
+                        <Component Guid="54513b72-b960-490a-9a97-fa3f07870638" Id="_223" Win64="yes">
+                            <File Id="_223f" KeyPath="yes" Name="jsse.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\jsse.jar"/>
+                        </Component>
+                        <Component Guid="77aa8a11-ed68-4a82-a31f-a38948598433" Id="_224" Win64="yes">
+                            <File Id="_224f" KeyPath="yes" Name="jvm.hprof.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\jvm.hprof.txt"/>
+                        </Component>
+                        <Component Guid="983c1167-c426-49b3-9d9b-d2f468f38fb9" Id="_225" Win64="yes">
+                            <File Id="_225f" KeyPath="yes" Name="logging.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\logging.properties"/>
+                        </Component>
+                        <Directory Id="_226" Name="management">
+                            <Component Guid="685164e5-6cae-43f9-aa70-35b898d0700d" Id="_227" Win64="yes">
+                                <File Id="_227f" KeyPath="yes" Name="jmxremote.access" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\management\jmxremote.access"/>
+                            </Component>
+                            <Component Guid="83a62eac-ac94-4f28-8d7b-411b0461e82a" Id="_228" Win64="yes">
+                                <File Id="_228f" KeyPath="yes" Name="jmxremote.password.template" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\management\jmxremote.password.template"/>
+                            </Component>
+                            <Component Guid="fc190c31-e8c4-48fe-9d43-6ada3aa059f0" Id="_229" Win64="yes">
+                                <File Id="_229f" KeyPath="yes" Name="management.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\management\management.properties"/>
+                            </Component>
+                            <Component Guid="5246aac6-eaa1-4cac-b636-679405f2c8b8" Id="_230" Win64="yes">
+                                <File Id="_230f" KeyPath="yes" Name="snmp.acl.template" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\management\snmp.acl.template"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="1cc3a78f-a53e-44cc-ac7a-fcd4cdb0a731" Id="_231" Win64="yes">
+                            <File Id="_231f" KeyPath="yes" Name="management-agent.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\management-agent.jar"/>
+                        </Component>
+                        <Component Guid="21e29532-9bc1-423e-88ed-25627478ce59" Id="_232" Win64="yes">
+                            <File Id="_232f" KeyPath="yes" Name="meta-index" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\meta-index"/>
+                        </Component>
+                        <Component Guid="459bdd83-1329-434f-a978-d668d726c438" Id="_233" Win64="yes">
+                            <File Id="_233f" KeyPath="yes" Name="net.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\net.properties"/>
+                        </Component>
+                        <Component Guid="604091d7-164d-4e21-b6d8-bf68c3e25617" Id="_234" Win64="yes">
+                            <File Id="_234f" KeyPath="yes" Name="plugin.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\plugin.jar"/>
+                        </Component>
+                        <Component Guid="16a47796-c44c-43fe-bd9b-e90b775ecce2" Id="_235" Win64="yes">
+                            <File Id="_235f" KeyPath="yes" Name="psfont.properties.ja" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\psfont.properties.ja"/>
+                        </Component>
+                        <Component Guid="65a2cd04-492a-43de-b123-fdd71da31f8f" Id="_236" Win64="yes">
+                            <File Id="_236f" KeyPath="yes" Name="psfontj2d.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\psfontj2d.properties"/>
+                        </Component>
+                        <Component Guid="6e9d59e0-39e5-4e61-bd5c-53a6e2245f9f" Id="_237" Win64="yes">
+                            <File Id="_237f" KeyPath="yes" Name="resources.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\resources.jar"/>
+                        </Component>
+                        <Component Guid="f02ac0da-5b59-487f-94ed-3479baa47686" Id="_238" Win64="yes">
+                            <File Id="_238f" KeyPath="yes" Name="rt.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\rt.jar"/>
+                        </Component>
+                        <Directory Id="_239" Name="security">
+                            <Component Guid="139d4863-d0c9-46a2-8775-68fab2a93f2e" Id="_240" Win64="yes">
+                                <File Id="_240f" KeyPath="yes" Name="blacklist" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\blacklist"/>
+                            </Component>
+                            <Component Guid="9297bcd3-71a2-410b-9576-f017f52ebc96" Id="_241" Win64="yes">
+                                <File Id="_241f" KeyPath="yes" Name="blacklisted.certs" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\blacklisted.certs"/>
+                            </Component>
+                            <Component Guid="709b237d-f652-4eb3-a157-329d40012c81" Id="_242" Win64="yes">
+                                <File Id="_242f" KeyPath="yes" Name="cacerts" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\cacerts"/>
+                            </Component>
+                            <Component Guid="ebf659e3-2cc9-431b-b640-672e0f0db191" Id="_243" Win64="yes">
+                                <File Id="_243f" KeyPath="yes" Name="java.policy" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\java.policy"/>
+                            </Component>
+                            <Component Guid="e2426d22-8b2f-45fe-96b2-a51ff06e8af9" Id="_244" Win64="yes">
+                                <File Id="_244f" KeyPath="yes" Name="java.security" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\java.security"/>
+                            </Component>
+                            <Component Guid="b65b715d-131d-4bb7-96c3-0b8c28fa475d" Id="_245" Win64="yes">
+                                <File Id="_245f" KeyPath="yes" Name="javaws.policy" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\javaws.policy"/>
+                            </Component>
+                            <Directory Id="_246" Name="policy">
+                                <Directory Id="_247" Name="limited">
+                                    <Component Guid="1bc2feb8-6bd8-46c4-825e-ccf030c2ff8b" Id="_248" Win64="yes">
+                                        <File Id="_248f" KeyPath="yes" Name="local_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\policy\limited\local_policy.jar"/>
+                                    </Component>
+                                    <Component Guid="1f208aa0-9312-406c-8d09-52dde8090409" Id="_249" Win64="yes">
+                                        <File Id="_249f" KeyPath="yes" Name="US_export_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\policy\limited\US_export_policy.jar"/>
+                                    </Component>
+                                </Directory>
+                                <Directory Id="_250" Name="unlimited">
+                                    <Component Guid="8799d8b7-db58-4e1c-9f46-d10ab16ccc63" Id="_251" Win64="yes">
+                                        <File Id="_251f" KeyPath="yes" Name="local_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\policy\unlimited\local_policy.jar"/>
+                                    </Component>
+                                    <Component Guid="5f6470d0-af4b-4180-b8c6-b6a0fbc8fcc1" Id="_252" Win64="yes">
+                                        <File Id="_252f" KeyPath="yes" Name="US_export_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\policy\unlimited\US_export_policy.jar"/>
+                                    </Component>
+                                </Directory>
+                            </Directory>
+                            <Component Guid="ce91c8d2-ef0b-410d-b14b-7718557acc93" Id="_253" Win64="yes">
+                                <File Id="_253f" KeyPath="yes" Name="public_suffix_list.dat" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\public_suffix_list.dat"/>
+                            </Component>
+                            <Component Guid="bb22cfd2-36e6-4968-acf1-b79be2ef359d" Id="_254" Win64="yes">
+                                <File Id="_254f" KeyPath="yes" Name="trusted.libraries" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\security\trusted.libraries"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="0498ad38-7ede-49f2-bc00-8846a01cdb77" Id="_255" Win64="yes">
+                            <File Id="_255f" KeyPath="yes" Name="sound.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\sound.properties"/>
+                        </Component>
+                        <Component Guid="892e8d8b-a073-4d26-b4c5-9c54cd01a518" Id="_256" Win64="yes">
+                            <File Id="_256f" KeyPath="yes" Name="tools.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\tools.jar"/>
+                        </Component>
+                        <Component Guid="3b032f68-be72-458b-922b-44ccfc72ef32" Id="_257" Win64="yes">
+                            <File Id="_257f" KeyPath="yes" Name="tzdb.dat" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\tzdb.dat"/>
+                        </Component>
+                        <Component Guid="d9c542bd-bd3b-4681-a3bc-390366b54912" Id="_258" Win64="yes">
+                            <File Id="_258f" KeyPath="yes" Name="tzmappings" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\lib\tzmappings"/>
+                        </Component>
+                    </Directory>
+                    <Component Guid="ceba2641-5d21-40cd-9b02-e8d3e02baa4c" Id="_259" Win64="yes">
+                        <File Id="_259f" KeyPath="yes" Name="LICENSE" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\LICENSE"/>
+                    </Component>
+                    <Component Guid="8f8aba46-173e-4610-a469-65d29d87db43" Id="_260" Win64="yes">
+                        <File Id="_260f" KeyPath="yes" Name="README.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\README.txt"/>
+                    </Component>
+                    <Component Guid="3d563bc0-e6a4-48c0-869b-12488db25489" Id="_261" Win64="yes">
+                        <File Id="_261f" KeyPath="yes" Name="release" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\release"/>
+                    </Component>
+                    <Component Guid="df429808-4d2f-425a-9f9a-a4a4d54ba85f" Id="_262" Win64="yes">
+                        <File Id="_262f" KeyPath="yes" Name="THIRDPARTYLICENSEREADME-JAVAFX.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt"/>
+                    </Component>
+                    <Component Guid="1d52d83a-c974-4c77-a11d-39b301d9726e" Id="_263" Win64="yes">
+                        <File Id="_263f" KeyPath="yes" Name="THIRDPARTYLICENSEREADME.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\THIRDPARTYLICENSEREADME.txt"/>
+                    </Component>
+                    <Component Guid="48548900-97c4-4469-8a7d-4399adcd7e66" Id="_264" Win64="yes">
+                        <File Id="_264f" KeyPath="yes" Name="Welcome.html" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\jre\Welcome.html"/>
+                    </Component>
+                </Directory>
+                <Directory Id="_265" Name="libs">
+                    <Component Guid="14e54cf4-ebfc-4def-8255-cfc394b2dd7c" Id="_266" Win64="yes">
+                        <File Id="_266f" KeyPath="yes" Name="gson-2.8.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\gson-2.8.1.jar"/>
+                    </Component>
+                    <Component Guid="0b0772fd-238b-4ab6-b7ee-7bf460533fdb" Id="_267" Win64="yes">
+                        <File Id="_267f" KeyPath="yes" Name="Heart-7.4.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\Heart-7.4.1.jar"/>
+                    </Component>
+                    <Component Guid="845247af-1e61-4ac6-be01-df5ac28cf9ee" Id="_268" Win64="yes">
+                        <File Id="_268f" KeyPath="yes" Name="j-ogg-all-1.0.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\j-ogg-all-1.0.1.jar"/>
+                    </Component>
+                    <Component Guid="dde9d602-78f2-47e7-ad32-445820c1ef7e" Id="_269" Win64="yes">
+                        <File Id="_269f" KeyPath="yes" Name="jinput-2.0.9-natives-all.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jinput-2.0.9-natives-all.jar"/>
+                    </Component>
+                    <Component Guid="738fa3fc-103b-4ca2-b322-e78c6991c271" Id="_270" Win64="yes">
+                        <File Id="_270f" KeyPath="yes" Name="jinput-2.0.9.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jinput-2.0.9.jar"/>
+                    </Component>
+                    <Component Guid="ffacd00c-c771-4d4b-b740-7d84b9ccf18f" Id="_271" Win64="yes">
+                        <File Id="_271f" KeyPath="yes" Name="jme3-core-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-core-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="f209e7e9-31a7-4ea3-93e3-2d8f81021f3e" Id="_272" Win64="yes">
+                        <File Id="_272f" KeyPath="yes" Name="jme3-desktop-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-desktop-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="9a686005-b2e0-4ac2-b7ae-728b6b5b17c7" Id="_273" Win64="yes">
+                        <File Id="_273f" KeyPath="yes" Name="jme3-effects-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-effects-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="1d766c34-2e1b-41ce-8db9-3de2a09eb24d" Id="_274" Win64="yes">
+                        <File Id="_274f" KeyPath="yes" Name="jme3-jogg-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-jogg-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="9d73afd7-c2e4-46d9-aa4b-4dbf2d7484ca" Id="_275" Win64="yes">
+                        <File Id="_275f" KeyPath="yes" Name="jme3-lwjgl-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-lwjgl-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="dfaa3123-9269-4ab3-9614-824e0dc96022" Id="_276" Win64="yes">
+                        <File Id="_276f" KeyPath="yes" Name="jme3-networking-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-networking-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="2deed124-0319-4f30-8adb-8ec1415ecee5" Id="_277" Win64="yes">
+                        <File Id="_277f" KeyPath="yes" Name="jme3-plugins-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-plugins-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="9ae8812d-f20d-45b9-b8d4-5dcbf554edc3" Id="_278" Win64="yes">
+                        <File Id="_278f" KeyPath="yes" Name="jme3-terrain-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jme3-terrain-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="ab876fa9-c9b1-4004-8770-78a90107b814" Id="_279" Win64="yes">
+                        <File Id="_279f" KeyPath="yes" Name="jmf-2.1.1e.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\jmf-2.1.1e.jar"/>
+                    </Component>
+                    <Component Guid="09439f0a-f27c-4f1d-abe1-32b4696c799d" Id="_280" Win64="yes">
+                        <File Id="_280f" KeyPath="yes" Name="lwjgl-2.9.3.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\lwjgl-2.9.3.jar"/>
+                    </Component>
+                    <Component Guid="cc0390c4-16fe-4154-9c7a-6c1d28330373" Id="_281" Win64="yes">
+                        <File Id="_281f" KeyPath="yes" Name="lwjgl-platform-2.9.3-natives-linux.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\lwjgl-platform-2.9.3-natives-linux.jar"/>
+                    </Component>
+                    <Component Guid="0327b730-dbcb-4ae1-bf91-4c912b4c193b" Id="_282" Win64="yes">
+                        <File Id="_282f" KeyPath="yes" Name="lwjgl-platform-2.9.3-natives-osx.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\lwjgl-platform-2.9.3-natives-osx.jar"/>
+                    </Component>
+                    <Component Guid="cf3d1ce2-eef1-4d80-8e30-dc2e1dd680b3" Id="_283" Win64="yes">
+                        <File Id="_283f" KeyPath="yes" Name="lwjgl-platform-2.9.3-natives-windows.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\lwjgl-platform-2.9.3-natives-windows.jar"/>
+                    </Component>
+                    <Component Guid="4ca1fdd0-d3f0-4af2-acd6-a5339333aa57" Id="_284" Win64="yes">
+                        <File Id="_284f" KeyPath="yes" Name="Minie-4.8.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\Minie-4.8.1.jar"/>
+                    </Component>
+                    <Component Guid="7ce77e6a-339c-49db-b349-d8c1b15127d5" Id="_285" Win64="yes">
+                        <File Id="_285f" KeyPath="yes" Name="sim-math-1.4.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\sim-math-1.4.1.jar"/>
+                    </Component>
+                    <Component Guid="8b0ccf57-3ec2-429e-a2b3-f8ba3f4a7b88" Id="_286" Win64="yes">
+                        <File Id="_286f" KeyPath="yes" Name="slf4j-api-1.7.13.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\libs\slf4j-api-1.7.13.jar"/>
+                    </Component>
+                </Directory>
+                <Component Guid="9ecb1069-ff0c-4120-87d4-531be2a68b97" Id="_287" Win64="yes">
+                    <File Id="_287f" KeyPath="yes" Name="LICENSE" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\LICENSE"/>
+                </Component>
+                <Component Guid="c328be9d-ad02-40ec-9009-b00a9d6183da" Id="_288" Win64="yes">
+                    <File Id="exeFile" KeyPath="yes" Name="ultra mega gamer gungame online.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\ultra mega gamer gungame online\ultra mega gamer gungame online.exe">
+                        <Shortcut Description="ultra mega gamer gungame online" Directory="ProgramMenuFolder" Id="ApplicationStartMenuShortcut" Name="ultra mega gamer gungame online"/>
+                    </File>
+                    <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+                    <RegistryValue Key="Software\DGC Productions\ultra mega gamer gungame online" Name="installed" Root="HKLM" Type="integer" Value="1"/>
+                </Component>
+            </Directory>
+            <Directory Id="ProgramMenuFolder"/>
+            <Component Guid="c1409255-b919-4a68-9522-5cefd5bb973c" Id="RegistryEntries"/>
+        </Directory>
+    </Module>
+</Wix>

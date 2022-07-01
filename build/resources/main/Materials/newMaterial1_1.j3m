@@ -1,0 +1,13 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : "Textures/hol.png"
+        AlphaDiscardThreshold : 1.0E-4
+        UseVertexColor : false
+        Ambient : 0 0 0 1
+     }
+    AdditionalRenderState {
+      Blend Alpha
+      AlphaTestFalloff 0.5
+      ColorWrite On
+    }
+}

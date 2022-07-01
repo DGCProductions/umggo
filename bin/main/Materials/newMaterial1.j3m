@@ -1,0 +1,15 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        AlphaDiscardThreshold : 1.0E-4
+        UseVertexColor : false
+        Ambient : 0 0 0 1
+        DiffuseMap : "Textures/scorch2.png"
+        NormalMap : "Textures/scorchNormalMap.png"
+        SpecularMap : "Textures/scortchSpecularMap.png"
+     }
+    AdditionalRenderState {
+      Blend Alpha
+      AlphaTestFalloff 0.5
+      ColorWrite On
+    }
+}

@@ -1,0 +1,165 @@
+// Gradle build script for the BasicGame-on-Gradle project
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'io.github.fvarrui:javapackager:1.6.6'
+    }
+}
+
+
+plugins {
+    id 'application'
+    id 'eclipse'
+}
+apply plugin: 'io.github.fvarrui.javapackager.plugin'
+// select one source-code (JDK) option:
+//sourceCompatibility = JavaVersion.VERSION_1_7
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+targetCompatibility = JavaVersion.VERSION_1_8
+
+// select one version of the Engine:
+//ext.jme3Version = '3.1.0-stable' // from mavenCentral
+//ext.jme3Version = '3.2.4-stable' // from mavenCentral
+//ext.jme3Version = '3.3.0-stable' // from mavenCentral
+//ext.jme3Version = '3.3.2-stable' // from mavenCentral
+//ext.jme3Version = '3.4.0-stable' // from mavenCentral
+//ext.jme3Version = '3.4.1-stable' // from mavenCentral
+//ext.jme3Version = '3.5.0-stable' // from mavenCentral
+ext.jme3Version = '3.5.1-stable' // from mavenCentral
+//ext.jme3Version = '3.6.0-SNAPSHOT' // from mavenLocal
+
+tasks.withType(JavaCompile) { // Java compile-time options:
+    options.compilerArgs << '-Xdiags:verbose'
+    options.compilerArgs << '-Xlint:unchecked'
+    options.deprecation = true // to provide detailed deprecation warnings
+    options.encoding = 'UTF-8'
+}
+
+import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform
+Boolean isMacOS = DefaultNativePlatform.currentOperatingSystem.isMacOsX()
+
+tasks.withType(JavaExec) { // Java runtime options:
+    if (isMacOS) {
+        jvmArgs '-XstartOnFirstThread'
+    }
+    classpath sourceSets.main.runtimeClasspath
+    enableAssertions true
+    //jvmArgs '-verbose:gc'
+    //jvmArgs '-Xbatch'
+    //jvmArgs '-Xms256m', '-Xmx256m'
+    //jvmArgs '-XX:+PrintCompilation'
+    jvmArgs '-XX:+UseG1GC', '-XX:MaxGCPauseMillis=10'
+}
+
+// NetBeans will automatically add "run" and "debug" tasks relying on the
+// "mainClass" property. You may however define the property prior executing
+// tasks by passing a "-PmainClass=<QUALIFIED_CLASS_NAME>" argument.
+//
+// Note however, that you may define your own "run" and "debug" tasks if you
+// prefer. In this case NetBeans will not add these tasks but you may rely on
+// your own implementation.
+mainClassName = 'mygame.Main'
+if (!hasProperty('mainClass')) {
+    ext.mainClass = mainClassName
+}
+jar.manifest.attributes('Main-Class': mainClassName)
+/*
+task packageMyApp(type: io.github.fvarrui.javapackager.gradle.PackageTask, dependsOn: build) {
+	
+	mainClass = mainClassName
+	winConfig {
+		icoFile = file('src/main/resources/icon.ico')
+	}
+	organizationName = "DGC Productions"
+    version = '1.0'
+	bundleJre = true
+	jrePath = file('C:/Program Files/Java/jre1.8.0_321')
+	createZipball = true
+	
+}
+*/
+
+task packageMyApp(type: io.github.fvarrui.javapackager.gradle.PackageTask, dependsOn: build) {
+	mainClass = 'mygame.ServerMain'
+	winConfig {
+		icoFile = file('src/main/resources/icon.ico')
+	}
+    organizationName = "DGC Productions"
+	version = '1.0'
+	bundleJre = true
+	jrePath = file('C:/Program Files/Java/jre1.8.0_321')
+	createZipball = true
+}
+
+repositories {
+    //mavenLocal() // to find local SNAPSHOTs of libraries
+    mavenCentral()
+    maven { url 'https://jcenter.bintray.com/' } // for Lemur and SimMath
+    //maven { url 'http://nifty-gui.sourceforge.net/nifty-maven-repo' }
+    //google()
+
+    // Read more about repositories here:
+    //   https://docs.gradle.org/current/userguide/dependency_management.html#sec:repositories
+}
+
+dependencies {
+    // You can read more about how to add dependencies here:
+    //   https://docs.gradle.org/current/userguide/dependency_management.html#sec:how_to_declare_your_dependencies
+
+    // from mavenCentral (or mavenLocal) repositories:
+    implementation 'org.jmonkeyengine:jme3-core:' + jme3Version
+    implementation 'org.jmonkeyengine:jme3-desktop:' + jme3Version
+    implementation 'org.jmonkeyengine:jme3-effects:' + jme3Version
+    implementation 'org.jmonkeyengine:jme3-networking:' + jme3Version
+    //implementation 'org.jmonkeyengine:jme3-niftygui:' + jme3Version
+    //implementation 'org.jmonkeyengine:jme3-terrain:' + jme3Version
+
+    // select one version of LWJGL (from mavenCentral or mavenLocal)
+    runtimeOnly 'org.jmonkeyengine:jme3-lwjgl:' + jme3Version  // LWJGL 2.x
+    //runtimeOnly 'org.jmonkeyengine:jme3-lwjgl3:' + jme3Version // LWJGL 3.x
+
+    // BasicGame doesn't use physics. If your game needs physics, select either:
+    //    1. Minie
+    implementation 'com.github.stephengold:Minie:4.8.1'
+    // OR
+    //    2. jme3-jbullet
+    //implementation 'org.jmonkeyengine:jme3-jbullet:' + jme3Version
+
+    // BasicGame doesn't use jme3-jogg nor jme3-plugins
+    //  -- they are included solely to avoid warnings from AssetConfig.
+    runtimeOnly 'org.jmonkeyengine:jme3-jogg:' + jme3Version
+    runtimeOnly 'org.jmonkeyengine:jme3-plugins:' + jme3Version
+
+    // libraries related to the Lemur GUI and Groovy:
+    //implementation 'com.simsilica:lemur:1.15.0'
+    //implementation 'com.simsilica:lemur-props:1.1.1'
+    //implementation 'com.simsilica:lemur-proto:1.12.0'
+    //runtimeOnly 'org.codehaus.groovy:groovy-jsr223:3.0.10'
+
+    // other libraries:
+    //implementation 'com.github.stephengold:Heart:7.5.0'
+    //implementation 'com.simsilica:sim-math:1.4.1'
+    //runtimeOnly 'org.jmonkeyengine:jme3-testdata:' + jme3Version
+}
+
+// cleanup tasks:
+
+clean.dependsOn('cleanDLLs', 'cleanDyLibs', 'cleanLogs', 'cleanSOs')
+
+tasks.register('cleanDLLs', Delete) { // extracted Windows native libraries
+    delete fileTree(dir: '.', include: '*.dll')
+}
+tasks.register('cleanDyLibs', Delete) { // extracted macOS native libraries
+    delete fileTree(dir: '.', include: '*.dylib')
+}
+tasks.register('cleanLogs', Delete) { // JVM crash logs
+    delete fileTree(dir: '.', include: 'hs_err_pid*.log')
+}
+tasks.register('cleanSOs', Delete) { // extracted Linux and Android native libraries
+    delete fileTree(dir: '.', include: '*.so')
+}
+
+

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?><Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Module Codepage="1252" Id="umgggO_SERVER_Module" Language="1033" Version="1.0.0.0">
+        <Package Description="umgggO SERVER" Id="594146ed-8669-4c4e-bfa1-4473e02bf576" InstallerVersion="200" Languages="1033" Manufacturer="DGC Productions" Platform="x64" SummaryCodepage="1252"/>
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="_1" Name="umgggO SERVER">
+                <Component Guid="689b7328-9363-41da-b713-939aaff7e889" Id="_2" Win64="yes">
+                    <File Id="_2f" KeyPath="yes" Name="icon.ico" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\icon.ico"/>
+                </Component>
+                <Directory Id="_3" Name="jre">
+                    <Directory Id="_4" Name="bin">
+                        <Component Guid="eb84de6b-7eea-43e7-bff6-d8eca883c4d9" Id="_5" Win64="yes">
+                            <File Id="_5f" KeyPath="yes" Name="api-ms-win-core-console-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-console-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="0b581799-3a5c-4518-9d3e-4cc9c488a692" Id="_6" Win64="yes">
+                            <File Id="_6f" KeyPath="yes" Name="api-ms-win-core-console-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-console-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="770070bb-505c-454a-a144-f9c0f4c3343c" Id="_7" Win64="yes">
+                            <File Id="_7f" KeyPath="yes" Name="api-ms-win-core-datetime-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-datetime-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="4148fcad-a4f6-4418-af08-4b1340a771b2" Id="_8" Win64="yes">
+                            <File Id="_8f" KeyPath="yes" Name="api-ms-win-core-debug-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-debug-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="b9d5cde3-548b-4992-95ec-0661bc56bfa0" Id="_9" Win64="yes">
+                            <File Id="_9f" KeyPath="yes" Name="api-ms-win-core-errorhandling-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="6a624eb0-0d8f-4915-bffd-ed372a980414" Id="_10" Win64="yes">
+                            <File Id="_10f" KeyPath="yes" Name="api-ms-win-core-file-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-file-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="a8e85608-d6c5-4846-a713-dbb7519b7b92" Id="_11" Win64="yes">
+                            <File Id="_11f" KeyPath="yes" Name="api-ms-win-core-file-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-file-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="63311f40-a990-4c38-9375-8564599ab354" Id="_12" Win64="yes">
+                            <File Id="_12f" KeyPath="yes" Name="api-ms-win-core-file-l2-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-file-l2-1-0.dll"/>
+                        </Component>
+                        <Component Guid="b099f9cc-4657-4910-9d9d-a2607116a3ea" Id="_13" Win64="yes">
+                            <File Id="_13f" KeyPath="yes" Name="api-ms-win-core-handle-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-handle-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="728e16ec-8415-4843-8e96-b8f60932fdc6" Id="_14" Win64="yes">
+                            <File Id="_14f" KeyPath="yes" Name="api-ms-win-core-heap-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-heap-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="7b54a3d5-d3bd-4a0b-b34e-844cdb4d3aec" Id="_15" Win64="yes">
+                            <File Id="_15f" KeyPath="yes" Name="api-ms-win-core-interlocked-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="7981e8a4-ce32-4494-9aff-27739b7097ae" Id="_16" Win64="yes">
+                            <File Id="_16f" KeyPath="yes" Name="api-ms-win-core-libraryloader-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="e476a595-a251-4d98-9301-83ecb8aa0287" Id="_17" Win64="yes">
+                            <File Id="_17f" KeyPath="yes" Name="api-ms-win-core-localization-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-localization-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="e3d8fbc8-4d56-41b8-a845-1246bcb03cff" Id="_18" Win64="yes">
+                            <File Id="_18f" KeyPath="yes" Name="api-ms-win-core-memory-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-memory-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="88bb38fd-613e-4935-96bd-51bddd3ad07c" Id="_19" Win64="yes">
+                            <File Id="_19f" KeyPath="yes" Name="api-ms-win-core-namedpipe-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="d2c7abb7-33d7-4b29-9da3-d6d152de7fa9" Id="_20" Win64="yes">
+                            <File Id="_20f" KeyPath="yes" Name="api-ms-win-core-processenvironment-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="ba017da2-fc7a-4af3-b2e1-63cda10997fb" Id="_21" Win64="yes">
+                            <File Id="_21f" KeyPath="yes" Name="api-ms-win-core-processthreads-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="025d8fa6-1929-4fdf-9e1a-e9a0b1027010" Id="_22" Win64="yes">
+                            <File Id="_22f" KeyPath="yes" Name="api-ms-win-core-processthreads-l1-1-1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll"/>
+                        </Component>
+                        <Component Guid="6fdfdeed-d494-456e-9cae-3e6cea5910d1" Id="_23" Win64="yes">
+                            <File Id="_23f" KeyPath="yes" Name="api-ms-win-core-profile-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-profile-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="5c723290-f73c-4b1a-ba2d-f874ee3c1af7" Id="_24" Win64="yes">
+                            <File Id="_24f" KeyPath="yes" Name="api-ms-win-core-rtlsupport-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="2a025dd0-cd07-4846-809d-0ca329c744c9" Id="_25" Win64="yes">
+                            <File Id="_25f" KeyPath="yes" Name="api-ms-win-core-string-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-string-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="86b562ce-0e4f-4ca2-ba8a-faf5a2e281c6" Id="_26" Win64="yes">
+                            <File Id="_26f" KeyPath="yes" Name="api-ms-win-core-synch-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-synch-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="12bb0e56-012e-4ab6-a26f-22ae2d952e23" Id="_27" Win64="yes">
+                            <File Id="_27f" KeyPath="yes" Name="api-ms-win-core-synch-l1-2-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-synch-l1-2-0.dll"/>
+                        </Component>
+                        <Component Guid="b719d4f5-5e32-4bd2-bf90-9eac4736a793" Id="_28" Win64="yes">
+                            <File Id="_28f" KeyPath="yes" Name="api-ms-win-core-sysinfo-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="486dcef0-20ec-40ac-9086-b2707069e7cb" Id="_29" Win64="yes">
+                            <File Id="_29f" KeyPath="yes" Name="api-ms-win-core-timezone-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-timezone-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="acf90d13-4581-4350-affb-81e0bd432136" Id="_30" Win64="yes">
+                            <File Id="_30f" KeyPath="yes" Name="api-ms-win-core-util-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-core-util-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="ad7ee02f-89ce-4b6f-8e3c-5d5999d813b3" Id="_31" Win64="yes">
+                            <File Id="_31f" KeyPath="yes" Name="api-ms-win-crt-conio-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-conio-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="e10450da-8c88-438c-9c9f-89e4d0ef2fce" Id="_32" Win64="yes">
+                            <File Id="_32f" KeyPath="yes" Name="api-ms-win-crt-convert-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-convert-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="52f1a232-1f4a-466d-8519-e7d2e57f9c43" Id="_33" Win64="yes">
+                            <File Id="_33f" KeyPath="yes" Name="api-ms-win-crt-environment-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-environment-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="c4f3d7f7-c361-4433-9a68-b4a8048058a5" Id="_34" Win64="yes">
+                            <File Id="_34f" KeyPath="yes" Name="api-ms-win-crt-filesystem-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="593b2d22-224c-46fa-938e-7465a5f2ee3d" Id="_35" Win64="yes">
+                            <File Id="_35f" KeyPath="yes" Name="api-ms-win-crt-heap-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-heap-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="e6e0eaf6-8e9f-4c47-8fa9-01b369071d47" Id="_36" Win64="yes">
+                            <File Id="_36f" KeyPath="yes" Name="api-ms-win-crt-locale-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-locale-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="ccf2fdf0-e07d-4a1e-921f-3195f21b03b8" Id="_37" Win64="yes">
+                            <File Id="_37f" KeyPath="yes" Name="api-ms-win-crt-math-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-math-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="57bc916a-79b3-489f-943d-67359b9f0cbc" Id="_38" Win64="yes">
+                            <File Id="_38f" KeyPath="yes" Name="api-ms-win-crt-multibyte-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="a17a19df-e9fd-47c7-a083-de96e21fc0bf" Id="_39" Win64="yes">
+                            <File Id="_39f" KeyPath="yes" Name="api-ms-win-crt-private-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-private-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="2af2fba8-d123-48f1-b4d8-7af1f3148a10" Id="_40" Win64="yes">
+                            <File Id="_40f" KeyPath="yes" Name="api-ms-win-crt-process-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-process-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="f46038d7-ed6b-4212-9ec4-09ddbfa8d5cf" Id="_41" Win64="yes">
+                            <File Id="_41f" KeyPath="yes" Name="api-ms-win-crt-runtime-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="5138563c-d8cf-4799-bb2f-987353fffd77" Id="_42" Win64="yes">
+                            <File Id="_42f" KeyPath="yes" Name="api-ms-win-crt-stdio-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="cbc27a2c-279e-4092-a973-c360709b8048" Id="_43" Win64="yes">
+                            <File Id="_43f" KeyPath="yes" Name="api-ms-win-crt-string-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-string-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="bcab53dc-f80c-4c36-aff8-119d2771d0da" Id="_44" Win64="yes">
+                            <File Id="_44f" KeyPath="yes" Name="api-ms-win-crt-time-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-time-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="58eb326d-7efb-4a51-a3ea-08f71545b72d" Id="_45" Win64="yes">
+                            <File Id="_45f" KeyPath="yes" Name="api-ms-win-crt-utility-l1-1-0.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\api-ms-win-crt-utility-l1-1-0.dll"/>
+                        </Component>
+                        <Component Guid="302c7e4e-1ccd-45d7-9700-6af0490f0978" Id="_46" Win64="yes">
+                            <File Id="_46f" KeyPath="yes" Name="awt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\awt.dll"/>
+                        </Component>
+                        <Component Guid="986bfe7e-8191-4bd5-851e-7187f7bbcb24" Id="_47" Win64="yes">
+                            <File Id="_47f" KeyPath="yes" Name="bci.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\bci.dll"/>
+                        </Component>
+                        <Component Guid="b1fea2c3-aa0c-4282-b764-6705d0be52ec" Id="_48" Win64="yes">
+                            <File Id="_48f" KeyPath="yes" Name="dcpr.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\dcpr.dll"/>
+                        </Component>
+                        <Component Guid="457267c9-4d54-48d5-9cb5-519f42e289f2" Id="_49" Win64="yes">
+                            <File Id="_49f" KeyPath="yes" Name="decora_sse.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\decora_sse.dll"/>
+                        </Component>
+                        <Component Guid="2d3e272c-53de-478a-b1a0-54ee1589e887" Id="_50" Win64="yes">
+                            <File Id="_50f" KeyPath="yes" Name="deploy.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\deploy.dll"/>
+                        </Component>
+                        <Directory Id="_51" Name="dtplugin">
+                            <Component Guid="bc7b7c6e-3bfe-4fe7-bae9-7c99e6d17c11" Id="_52" Win64="yes">
+                                <File Id="_52f" KeyPath="yes" Name="deployJava1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\dtplugin\deployJava1.dll"/>
+                            </Component>
+                            <Component Guid="dd35bdea-5951-4a48-9941-1536955e5513" Id="_53" Win64="yes">
+                                <File Id="_53f" KeyPath="yes" Name="npdeployJava1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\dtplugin\npdeployJava1.dll"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="4849a792-a5ac-4be2-b8ce-1adda319d76d" Id="_54" Win64="yes">
+                            <File Id="_54f" KeyPath="yes" Name="dt_shmem.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\dt_shmem.dll"/>
+                        </Component>
+                        <Component Guid="62064f04-9d21-41ad-802a-099e922c7fc5" Id="_55" Win64="yes">
+                            <File Id="_55f" KeyPath="yes" Name="dt_socket.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\dt_socket.dll"/>
+                        </Component>
+                        <Component Guid="8c618f48-000f-4f97-97de-af3127c993ec" Id="_56" Win64="yes">
+                            <File Id="_56f" KeyPath="yes" Name="eula.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\eula.dll"/>
+                        </Component>
+                        <Component Guid="681229ef-a770-4c75-b44c-98149f20ea91" Id="_57" Win64="yes">
+                            <File Id="_57f" KeyPath="yes" Name="fontmanager.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\fontmanager.dll"/>
+                        </Component>
+                        <Component Guid="385287df-b26b-4722-8e4c-1ff970a1ffac" Id="_58" Win64="yes">
+                            <File Id="_58f" KeyPath="yes" Name="fxplugins.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\fxplugins.dll"/>
+                        </Component>
+                        <Component Guid="ec826983-d0b5-4db0-aad4-cff20dc197c8" Id="_59" Win64="yes">
+                            <File Id="_59f" KeyPath="yes" Name="glass.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\glass.dll"/>
+                        </Component>
+                        <Component Guid="2c9b0f84-78c1-47ea-a57b-899003e1e8a8" Id="_60" Win64="yes">
+                            <File Id="_60f" KeyPath="yes" Name="glib-lite.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\glib-lite.dll"/>
+                        </Component>
+                        <Component Guid="7506a192-9179-4673-8d5f-36f952aa8454" Id="_61" Win64="yes">
+                            <File Id="_61f" KeyPath="yes" Name="gstreamer-lite.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\gstreamer-lite.dll"/>
+                        </Component>
+                        <Component Guid="d0c52b20-e3ac-4ad4-a7a6-d98063f90b2f" Id="_62" Win64="yes">
+                            <File Id="_62f" KeyPath="yes" Name="hprof.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\hprof.dll"/>
+                        </Component>
+                        <Component Guid="9903aa28-0195-4e55-83b9-f9926f671a80" Id="_63" Win64="yes">
+                            <File Id="_63f" KeyPath="yes" Name="instrument.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\instrument.dll"/>
+                        </Component>
+                        <Component Guid="a355e023-915b-4650-92bd-1bac870f0339" Id="_64" Win64="yes">
+                            <File Id="_64f" KeyPath="yes" Name="j2pcsc.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\j2pcsc.dll"/>
+                        </Component>
+                        <Component Guid="67fe2ddd-cdbb-4715-849e-dd289de9dbe7" Id="_65" Win64="yes">
+                            <File Id="_65f" KeyPath="yes" Name="j2pkcs11.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\j2pkcs11.dll"/>
+                        </Component>
+                        <Component Guid="3eb9d702-4857-455e-8865-6b56e7c72aae" Id="_66" Win64="yes">
+                            <File Id="_66f" KeyPath="yes" Name="jaas_nt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jaas_nt.dll"/>
+                        </Component>
+                        <Component Guid="3d997a0a-0046-48f4-b426-8946a713d03b" Id="_67" Win64="yes">
+                            <File Id="_67f" KeyPath="yes" Name="jabswitch.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jabswitch.exe"/>
+                        </Component>
+                        <Component Guid="35e0f19b-6bf1-4734-8042-04b16d4eae61" Id="_68" Win64="yes">
+                            <File Id="_68f" KeyPath="yes" Name="java-rmi.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\java-rmi.exe"/>
+                        </Component>
+                        <Component Guid="bb02ccd5-6aee-4dc9-8bd8-e33565c85aff" Id="_69" Win64="yes">
+                            <File Id="_69f" KeyPath="yes" Name="java.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\java.dll"/>
+                        </Component>
+                        <Component Guid="767484c2-91fe-42ec-a3e1-8ed6f74a7a70" Id="_70" Win64="yes">
+                            <File Id="_70f" KeyPath="yes" Name="java.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\java.exe"/>
+                        </Component>
+                        <Component Guid="b68cf98e-61db-4c98-9a4f-a106eedd2122" Id="_71" Win64="yes">
+                            <File Id="_71f" KeyPath="yes" Name="JavaAccessBridge-64.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\JavaAccessBridge-64.dll"/>
+                        </Component>
+                        <Component Guid="d9564113-7ba6-41c6-816b-eecefa4442fb" Id="_72" Win64="yes">
+                            <File Id="_72f" KeyPath="yes" Name="javacpl.cpl" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\javacpl.cpl"/>
+                        </Component>
+                        <Component Guid="6a3c484f-10f5-4cc3-8c69-8057e69cd7a0" Id="_73" Win64="yes">
+                            <File Id="_73f" KeyPath="yes" Name="javacpl.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\javacpl.exe"/>
+                        </Component>
+                        <Component Guid="d7510092-a308-4e7c-aaba-0117a48161a2" Id="_74" Win64="yes">
+                            <File Id="_74f" KeyPath="yes" Name="javafx_font.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\javafx_font.dll"/>
+                        </Component>
+                        <Component Guid="5ad6112d-6e17-4b0f-9788-c6a4b140a770" Id="_75" Win64="yes">
+                            <File Id="_75f" KeyPath="yes" Name="javafx_iio.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\javafx_iio.dll"/>
+                        </Component>
+                        <Component Guid="46b30e69-ba55-4268-a9ff-46f50bc944dd" Id="_76" Win64="yes">
+                            <File Id="_76f" KeyPath="yes" Name="javaw.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\javaw.exe"/>
+                        </Component>
+                        <Component Guid="7933c085-2ae8-4dbf-ada5-1c65db823222" Id="_77" Win64="yes">
+                            <File Id="_77f" KeyPath="yes" Name="javaws.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\javaws.exe"/>
+                        </Component>
+                        <Component Guid="b979fcdb-78ae-4318-80bb-2a81ac855e6a" Id="_78" Win64="yes">
+                            <File Id="_78f" KeyPath="yes" Name="java_crw_demo.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\java_crw_demo.dll"/>
+                        </Component>
+                        <Component Guid="3722c7e4-5c59-42a4-ade6-0840b4a77818" Id="_79" Win64="yes">
+                            <File Id="_79f" KeyPath="yes" Name="jawt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jawt.dll"/>
+                        </Component>
+                        <Component Guid="08c4853d-5dcf-4669-9d97-5d6ae7611bdf" Id="_80" Win64="yes">
+                            <File Id="_80f" KeyPath="yes" Name="JAWTAccessBridge-64.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\JAWTAccessBridge-64.dll"/>
+                        </Component>
+                        <Component Guid="f0d79632-8881-4d72-8840-1355cb9f46f2" Id="_81" Win64="yes">
+                            <File Id="_81f" KeyPath="yes" Name="jdwp.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jdwp.dll"/>
+                        </Component>
+                        <Component Guid="8c0ce147-314e-4a28-86ce-96f6eaae6159" Id="_82" Win64="yes">
+                            <File Id="_82f" KeyPath="yes" Name="jfr.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jfr.dll"/>
+                        </Component>
+                        <Component Guid="52cc2d85-ca0c-4280-b72b-a69feb291391" Id="_83" Win64="yes">
+                            <File Id="_83f" KeyPath="yes" Name="jfxmedia.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jfxmedia.dll"/>
+                        </Component>
+                        <Component Guid="b405ec3d-b6ed-4e3d-94e5-1e2cdc68b40c" Id="_84" Win64="yes">
+                            <File Id="_84f" KeyPath="yes" Name="jfxwebkit.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jfxwebkit.dll"/>
+                        </Component>
+                        <Component Guid="c4b48076-169d-4b2c-a3ea-69c20c8cb3a9" Id="_85" Win64="yes">
+                            <File Id="_85f" KeyPath="yes" Name="jjs.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jjs.exe"/>
+                        </Component>
+                        <Component Guid="7ac3f72d-9248-41a6-9acc-07fdb1d13117" Id="_86" Win64="yes">
+                            <File Id="_86f" KeyPath="yes" Name="jli.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jli.dll"/>
+                        </Component>
+                        <Component Guid="08c7376f-51cf-44fa-8a70-5f50b5a1447c" Id="_87" Win64="yes">
+                            <File Id="_87f" KeyPath="yes" Name="jp2iexp.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jp2iexp.dll"/>
+                        </Component>
+                        <Component Guid="557167b4-cb10-4ba6-a6f7-de7b856d26e9" Id="_88" Win64="yes">
+                            <File Id="_88f" KeyPath="yes" Name="jp2launcher.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jp2launcher.exe"/>
+                        </Component>
+                        <Component Guid="aa7f556c-75e1-49e9-bc99-33435edd908f" Id="_89" Win64="yes">
+                            <File Id="_89f" KeyPath="yes" Name="jp2native.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jp2native.dll"/>
+                        </Component>
+                        <Component Guid="7c97ee32-1ec6-4a20-9aaa-e1020eefe88e" Id="_90" Win64="yes">
+                            <File Id="_90f" KeyPath="yes" Name="jp2ssv.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jp2ssv.dll"/>
+                        </Component>
+                        <Component Guid="db2c6197-2edb-4a8a-bfd0-623b7f896cdb" Id="_91" Win64="yes">
+                            <File Id="_91f" KeyPath="yes" Name="jpeg.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jpeg.dll"/>
+                        </Component>
+                        <Component Guid="f3f395cd-7208-47cb-9a81-1ce7a57c9646" Id="_92" Win64="yes">
+                            <File Id="_92f" KeyPath="yes" Name="jsdt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jsdt.dll"/>
+                        </Component>
+                        <Component Guid="d370257b-0c0a-47d7-af8a-b53c74e21497" Id="_93" Win64="yes">
+                            <File Id="_93f" KeyPath="yes" Name="jsound.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jsound.dll"/>
+                        </Component>
+                        <Component Guid="d6edb32b-6688-4362-b84a-a3426071b9bd" Id="_94" Win64="yes">
+                            <File Id="_94f" KeyPath="yes" Name="jsoundds.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\jsoundds.dll"/>
+                        </Component>
+                        <Component Guid="261f5165-d98a-4f34-869e-05461e1a4c70" Id="_95" Win64="yes">
+                            <File Id="_95f" KeyPath="yes" Name="keytool.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\keytool.exe"/>
+                        </Component>
+                        <Component Guid="d1f4554d-cd46-4a70-94c1-39cfa469db82" Id="_96" Win64="yes">
+                            <File Id="_96f" KeyPath="yes" Name="kinit.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\kinit.exe"/>
+                        </Component>
+                        <Component Guid="3c14303d-672e-43f1-b9ea-5a4039bd8593" Id="_97" Win64="yes">
+                            <File Id="_97f" KeyPath="yes" Name="klist.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\klist.exe"/>
+                        </Component>
+                        <Component Guid="03252de5-aae0-45d9-9e00-ec4ca8141c15" Id="_98" Win64="yes">
+                            <File Id="_98f" KeyPath="yes" Name="ktab.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\ktab.exe"/>
+                        </Component>
+                        <Component Guid="88701050-7646-42ca-994a-a98afb5904b1" Id="_99" Win64="yes">
+                            <File Id="_99f" KeyPath="yes" Name="lcms.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\lcms.dll"/>
+                        </Component>
+                        <Component Guid="a8d4614a-9617-452e-9d4c-3c7f07417513" Id="_100" Win64="yes">
+                            <File Id="_100f" KeyPath="yes" Name="management.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\management.dll"/>
+                        </Component>
+                        <Component Guid="1fab03c3-3409-418d-8083-1686ff35e802" Id="_101" Win64="yes">
+                            <File Id="_101f" KeyPath="yes" Name="mlib_image.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\mlib_image.dll"/>
+                        </Component>
+                        <Component Guid="03e49cc9-3885-49e7-ac41-054fb711e072" Id="_102" Win64="yes">
+                            <File Id="_102f" KeyPath="yes" Name="msvcp140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\msvcp140.dll"/>
+                        </Component>
+                        <Component Guid="e8188447-ddf1-4224-84cc-06f47f8fc46e" Id="_103" Win64="yes">
+                            <File Id="_103f" KeyPath="yes" Name="net.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\net.dll"/>
+                        </Component>
+                        <Component Guid="e7143fd8-3776-4e9c-966f-d36151430873" Id="_104" Win64="yes">
+                            <File Id="_104f" KeyPath="yes" Name="nio.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\nio.dll"/>
+                        </Component>
+                        <Component Guid="35a4d1e8-1482-496f-a261-987418cdeff5" Id="_105" Win64="yes">
+                            <File Id="_105f" KeyPath="yes" Name="npt.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\npt.dll"/>
+                        </Component>
+                        <Component Guid="05a9cbd8-9fdd-45d7-a003-58d6af810105" Id="_106" Win64="yes">
+                            <File Id="_106f" KeyPath="yes" Name="orbd.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\orbd.exe"/>
+                        </Component>
+                        <Component Guid="28abeeda-9130-47f2-9265-8d949a8f237e" Id="_107" Win64="yes">
+                            <File Id="_107f" KeyPath="yes" Name="pack200.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\pack200.exe"/>
+                        </Component>
+                        <Directory Id="_108" Name="plugin2">
+                            <Component Guid="cd48d9fc-7c19-476e-a885-195a6ed130d8" Id="_109" Win64="yes">
+                                <File Id="_109f" KeyPath="yes" Name="msvcp140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\plugin2\msvcp140.dll"/>
+                            </Component>
+                            <Component Guid="7b16c5a1-a920-4c78-92de-7e76f06a0f7f" Id="_110" Win64="yes">
+                                <File Id="_110f" KeyPath="yes" Name="npjp2.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\plugin2\npjp2.dll"/>
+                            </Component>
+                            <Component Guid="6787d4e1-b6b9-4610-b2c1-43b6ded6f11d" Id="_111" Win64="yes">
+                                <File Id="_111f" KeyPath="yes" Name="vcruntime140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\plugin2\vcruntime140.dll"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="f3551928-5830-4ade-b56d-041b58037aa0" Id="_112" Win64="yes">
+                            <File Id="_112f" KeyPath="yes" Name="policytool.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\policytool.exe"/>
+                        </Component>
+                        <Component Guid="18fbb42b-97f7-43a3-bd95-0c70ae621183" Id="_113" Win64="yes">
+                            <File Id="_113f" KeyPath="yes" Name="prism_common.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\prism_common.dll"/>
+                        </Component>
+                        <Component Guid="23e15ccf-067b-4024-a4cf-b58c991e2a82" Id="_114" Win64="yes">
+                            <File Id="_114f" KeyPath="yes" Name="prism_d3d.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\prism_d3d.dll"/>
+                        </Component>
+                        <Component Guid="a196bce5-991c-49af-bd35-65a2fcc5edab" Id="_115" Win64="yes">
+                            <File Id="_115f" KeyPath="yes" Name="prism_sw.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\prism_sw.dll"/>
+                        </Component>
+                        <Component Guid="4eb78e56-1017-4840-ae32-54534dfcf6f4" Id="_116" Win64="yes">
+                            <File Id="_116f" KeyPath="yes" Name="resource.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\resource.dll"/>
+                        </Component>
+                        <Component Guid="3022839f-d845-46ad-b4aa-46536c6d79b0" Id="_117" Win64="yes">
+                            <File Id="_117f" KeyPath="yes" Name="rmid.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\rmid.exe"/>
+                        </Component>
+                        <Component Guid="2b0f6efc-8535-4698-9094-e51d689c0311" Id="_118" Win64="yes">
+                            <File Id="_118f" KeyPath="yes" Name="rmiregistry.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\rmiregistry.exe"/>
+                        </Component>
+                        <Directory Id="_119" Name="server">
+                            <Component Guid="3b40a70f-17ca-46d0-b3fd-64ab15ad2719" Id="_120" Win64="yes">
+                                <File Id="_120f" KeyPath="yes" Name="classes.jsa" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\server\classes.jsa"/>
+                            </Component>
+                            <Component Guid="32654076-cf91-4a37-aece-7315a41d7940" Id="_121" Win64="yes">
+                                <File Id="_121f" KeyPath="yes" Name="jvm.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\server\jvm.dll"/>
+                            </Component>
+                            <Component Guid="2cc187b8-af15-4276-b88e-9f06eeb80847" Id="_122" Win64="yes">
+                                <File Id="_122f" KeyPath="yes" Name="Xusage.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\server\Xusage.txt"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="7fc1a975-897b-4c2d-8bfe-0c010ccdf02c" Id="_123" Win64="yes">
+                            <File Id="_123f" KeyPath="yes" Name="servertool.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\servertool.exe"/>
+                        </Component>
+                        <Component Guid="5c443ef6-0f1a-4f24-bdd9-201e2747d0e0" Id="_124" Win64="yes">
+                            <File Id="_124f" KeyPath="yes" Name="splashscreen.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\splashscreen.dll"/>
+                        </Component>
+                        <Component Guid="f1f0dd69-b163-4099-8388-6d4981a9f793" Id="_125" Win64="yes">
+                            <File Id="_125f" KeyPath="yes" Name="ssv.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\ssv.dll"/>
+                        </Component>
+                        <Component Guid="4547039f-5e92-4580-a430-d462fed52315" Id="_126" Win64="yes">
+                            <File Id="_126f" KeyPath="yes" Name="ssvagent.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\ssvagent.exe"/>
+                        </Component>
+                        <Component Guid="abf09e81-3785-4cfa-8f27-fd5630f55efd" Id="_127" Win64="yes">
+                            <File Id="_127f" KeyPath="yes" Name="sunec.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\sunec.dll"/>
+                        </Component>
+                        <Component Guid="20f8eef8-8567-4859-a2ba-1dac2e700cac" Id="_128" Win64="yes">
+                            <File Id="_128f" KeyPath="yes" Name="sunmscapi.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\sunmscapi.dll"/>
+                        </Component>
+                        <Component Guid="b83197d5-4854-496a-9061-4d2d38819903" Id="_129" Win64="yes">
+                            <File Id="_129f" KeyPath="yes" Name="t2k.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\t2k.dll"/>
+                        </Component>
+                        <Component Guid="72d16c1d-f99d-4214-96d2-6e2d40df11f2" Id="_130" Win64="yes">
+                            <File Id="_130f" KeyPath="yes" Name="tnameserv.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\tnameserv.exe"/>
+                        </Component>
+                        <Component Guid="c57c165b-e139-417f-83ff-e08cdf24333a" Id="_131" Win64="yes">
+                            <File Id="_131f" KeyPath="yes" Name="ucrtbase.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\ucrtbase.dll"/>
+                        </Component>
+                        <Component Guid="20d9e119-6da3-4a76-b861-b180be8ef5e4" Id="_132" Win64="yes">
+                            <File Id="_132f" KeyPath="yes" Name="unpack.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\unpack.dll"/>
+                        </Component>
+                        <Component Guid="caf10997-5f31-4215-8f22-1709b5e0bab9" Id="_133" Win64="yes">
+                            <File Id="_133f" KeyPath="yes" Name="unpack200.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\unpack200.exe"/>
+                        </Component>
+                        <Component Guid="a679883f-d40c-44b3-b272-3eecf5a9c288" Id="_134" Win64="yes">
+                            <File Id="_134f" KeyPath="yes" Name="vcruntime140.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\vcruntime140.dll"/>
+                        </Component>
+                        <Component Guid="fe131230-3434-42d6-a151-79dd8ed75306" Id="_135" Win64="yes">
+                            <File Id="_135f" KeyPath="yes" Name="vcruntime140_1.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\vcruntime140_1.dll"/>
+                        </Component>
+                        <Component Guid="04b8621f-490b-48dd-9298-3967cd8115b1" Id="_136" Win64="yes">
+                            <File Id="_136f" KeyPath="yes" Name="verify.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\verify.dll"/>
+                        </Component>
+                        <Component Guid="aec1b35e-e91e-4dd9-8c21-2743f836d3ce" Id="_137" Win64="yes">
+                            <File Id="_137f" KeyPath="yes" Name="w2k_lsa_auth.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\w2k_lsa_auth.dll"/>
+                        </Component>
+                        <Component Guid="4fa7296e-db44-444f-bbf4-30230f4a82d0" Id="_138" Win64="yes">
+                            <File Id="_138f" KeyPath="yes" Name="WindowsAccessBridge-64.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\WindowsAccessBridge-64.dll"/>
+                        </Component>
+                        <Component Guid="bf641214-f671-4927-9173-0983abc227bf" Id="_139" Win64="yes">
+                            <File Id="_139f" KeyPath="yes" Name="wsdetect.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\wsdetect.dll"/>
+                        </Component>
+                        <Component Guid="fe9fdaae-285e-4c13-914d-b6a29b940cf4" Id="_140" Win64="yes">
+                            <File Id="_140f" KeyPath="yes" Name="zip.dll" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\bin\zip.dll"/>
+                        </Component>
+                    </Directory>
+                    <Component Guid="60d2d842-3fae-45d3-b798-565c5581b650" Id="_141" Win64="yes">
+                        <File Id="_141f" KeyPath="yes" Name="COPYRIGHT" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\COPYRIGHT"/>
+                    </Component>
+                    <Directory Id="_142" Name="lib">
+                        <Component Guid="d2259cdb-500b-46a4-99f8-1d35dd73a061" Id="_143" Win64="yes">
+                            <File Id="_143f" KeyPath="yes" Name="accessibility.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\accessibility.properties"/>
+                        </Component>
+                        <Directory Id="_144" Name="amd64">
+                            <Component Guid="83f91b1b-e396-47ef-b4aa-9edeecfa5bb0" Id="_145" Win64="yes">
+                                <File Id="_145f" KeyPath="yes" Name="jvm.cfg" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\amd64\jvm.cfg"/>
+                            </Component>
+                        </Directory>
+                        <Directory Id="_146" Name="applet"/>
+                        <Component Guid="5f24bfba-b916-4fbf-9699-329e57b30d30" Id="_147" Win64="yes">
+                            <File Id="_147f" KeyPath="yes" Name="calendars.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\calendars.properties"/>
+                        </Component>
+                        <Component Guid="2732b970-0acb-44e7-bae6-24479f0e39e0" Id="_148" Win64="yes">
+                            <File Id="_148f" KeyPath="yes" Name="charsets.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\charsets.jar"/>
+                        </Component>
+                        <Component Guid="6c3f8d97-5d45-4a5d-b8e5-4fcefe594f39" Id="_149" Win64="yes">
+                            <File Id="_149f" KeyPath="yes" Name="classlist" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\classlist"/>
+                        </Component>
+                        <Directory Id="_150" Name="cmm">
+                            <Component Guid="6fc742f9-3393-4be1-b4e0-5d536928474d" Id="_151" Win64="yes">
+                                <File Id="_151f" KeyPath="yes" Name="CIEXYZ.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\cmm\CIEXYZ.pf"/>
+                            </Component>
+                            <Component Guid="5b751dcb-9097-4a5c-bf40-8559e249c4d8" Id="_152" Win64="yes">
+                                <File Id="_152f" KeyPath="yes" Name="GRAY.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\cmm\GRAY.pf"/>
+                            </Component>
+                            <Component Guid="9f9f2ada-183a-437c-bd09-766743c1c1df" Id="_153" Win64="yes">
+                                <File Id="_153f" KeyPath="yes" Name="LINEAR_RGB.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\cmm\LINEAR_RGB.pf"/>
+                            </Component>
+                            <Component Guid="8751c883-651e-45ee-9b63-182db98fdf82" Id="_154" Win64="yes">
+                                <File Id="_154f" KeyPath="yes" Name="PYCC.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\cmm\PYCC.pf"/>
+                            </Component>
+                            <Component Guid="6627a66c-f23c-4688-9cae-44c07150fcda" Id="_155" Win64="yes">
+                                <File Id="_155f" KeyPath="yes" Name="sRGB.pf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\cmm\sRGB.pf"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="0202d5b5-441e-42fd-a727-e33a2aa53daa" Id="_156" Win64="yes">
+                            <File Id="_156f" KeyPath="yes" Name="content-types.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\content-types.properties"/>
+                        </Component>
+                        <Component Guid="2b5f6eed-6354-4ae8-a8d3-28feb562da5e" Id="_157" Win64="yes">
+                            <File Id="_157f" KeyPath="yes" Name="currency.data" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\currency.data"/>
+                        </Component>
+                        <Directory Id="_158" Name="deploy">
+                            <Component Guid="848d78ce-f861-4f28-b557-e21a36692b8c" Id="_159" Win64="yes">
+                                <File Id="_159f" KeyPath="yes" Name="ffjcext.zip" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\ffjcext.zip"/>
+                            </Component>
+                            <Component Guid="6b2efeaf-3102-4766-bb5a-bcb4bcd3667d" Id="_160" Win64="yes">
+                                <File Id="_160f" KeyPath="yes" Name="messages.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages.properties"/>
+                            </Component>
+                            <Component Guid="903e5dad-c767-4525-ac4b-148f7345554c" Id="_161" Win64="yes">
+                                <File Id="_161f" KeyPath="yes" Name="messages_de.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_de.properties"/>
+                            </Component>
+                            <Component Guid="e9a5e872-46e8-4506-a6ad-e605d50a6e07" Id="_162" Win64="yes">
+                                <File Id="_162f" KeyPath="yes" Name="messages_es.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_es.properties"/>
+                            </Component>
+                            <Component Guid="915ac379-45df-4dd7-8f94-1b6b9fe0f60c" Id="_163" Win64="yes">
+                                <File Id="_163f" KeyPath="yes" Name="messages_fr.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_fr.properties"/>
+                            </Component>
+                            <Component Guid="246e1d04-0d16-4c57-8f6a-5fa3bc81a2f7" Id="_164" Win64="yes">
+                                <File Id="_164f" KeyPath="yes" Name="messages_it.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_it.properties"/>
+                            </Component>
+                            <Component Guid="20caa4df-844d-4eb4-879d-b6863ebfd259" Id="_165" Win64="yes">
+                                <File Id="_165f" KeyPath="yes" Name="messages_ja.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_ja.properties"/>
+                            </Component>
+                            <Component Guid="3de6493d-4e97-4c2b-af4a-48c05925175f" Id="_166" Win64="yes">
+                                <File Id="_166f" KeyPath="yes" Name="messages_ko.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_ko.properties"/>
+                            </Component>
+                            <Component Guid="7a48cb31-7227-47a9-8081-cccfbc5a3290" Id="_167" Win64="yes">
+                                <File Id="_167f" KeyPath="yes" Name="messages_pt_BR.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_pt_BR.properties"/>
+                            </Component>
+                            <Component Guid="5736eea7-fc97-485f-ba80-d392affa8723" Id="_168" Win64="yes">
+                                <File Id="_168f" KeyPath="yes" Name="messages_sv.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_sv.properties"/>
+                            </Component>
+                            <Component Guid="df007a41-9507-4b5b-986a-f57e5452c539" Id="_169" Win64="yes">
+                                <File Id="_169f" KeyPath="yes" Name="messages_zh_CN.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_zh_CN.properties"/>
+                            </Component>
+                            <Component Guid="950cc499-3f72-4d85-8e61-b617362148a7" Id="_170" Win64="yes">
+                                <File Id="_170f" KeyPath="yes" Name="messages_zh_HK.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_zh_HK.properties"/>
+                            </Component>
+                            <Component Guid="ae893d09-8740-40d1-a19a-ed27b7f8f2a5" Id="_171" Win64="yes">
+                                <File Id="_171f" KeyPath="yes" Name="messages_zh_TW.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\messages_zh_TW.properties"/>
+                            </Component>
+                            <Component Guid="ecfeacee-d70e-4f08-aea1-3966faef4af1" Id="_172" Win64="yes">
+                                <File Id="_172f" KeyPath="yes" Name="splash.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\splash.gif"/>
+                            </Component>
+                            <Component Guid="9bf344fb-1faa-4481-b280-0185588764ca" Id="_173" Win64="yes">
+                                <File Id="_173f" KeyPath="yes" Name="splash@2x.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\splash@2x.gif"/>
+                            </Component>
+                            <Component Guid="c0fef1ba-6e1d-46af-9294-678ee34c8c61" Id="_174" Win64="yes">
+                                <File Id="_174f" KeyPath="yes" Name="splash_11-lic.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\splash_11-lic.gif"/>
+                            </Component>
+                            <Component Guid="70330d27-0252-4393-8d45-a99662a251bb" Id="_175" Win64="yes">
+                                <File Id="_175f" KeyPath="yes" Name="splash_11@2x-lic.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy\splash_11@2x-lic.gif"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="5e9e51c1-7db4-45c9-99ce-6952208edade" Id="_176" Win64="yes">
+                            <File Id="_176f" KeyPath="yes" Name="deploy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\deploy.jar"/>
+                        </Component>
+                        <Directory Id="_177" Name="ext">
+                            <Component Guid="2926c582-633d-40d5-96bf-112c64525370" Id="_178" Win64="yes">
+                                <File Id="_178f" KeyPath="yes" Name="access-bridge-64.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\access-bridge-64.jar"/>
+                            </Component>
+                            <Component Guid="0758218e-782d-401a-b769-d51bfdbd32bf" Id="_179" Win64="yes">
+                                <File Id="_179f" KeyPath="yes" Name="cldrdata.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\cldrdata.jar"/>
+                            </Component>
+                            <Component Guid="0c36b162-8b47-4ed6-8ffd-a3c36d4adfe2" Id="_180" Win64="yes">
+                                <File Id="_180f" KeyPath="yes" Name="dnsns.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\dnsns.jar"/>
+                            </Component>
+                            <Component Guid="c2d07435-bbae-487f-a60e-650e140d40b7" Id="_181" Win64="yes">
+                                <File Id="_181f" KeyPath="yes" Name="dns_sd.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\dns_sd.jar"/>
+                            </Component>
+                            <Component Guid="f698944d-b1b4-49a2-8d8c-d6784623405c" Id="_182" Win64="yes">
+                                <File Id="_182f" KeyPath="yes" Name="jaccess.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\jaccess.jar"/>
+                            </Component>
+                            <Component Guid="0c9f341d-8c31-4d91-812f-5a31a9933ec1" Id="_183" Win64="yes">
+                                <File Id="_183f" KeyPath="yes" Name="jfxrt.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\jfxrt.jar"/>
+                            </Component>
+                            <Component Guid="ee66294e-3f8c-43e2-8df9-fb0e1e0e21df" Id="_184" Win64="yes">
+                                <File Id="_184f" KeyPath="yes" Name="localedata.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\localedata.jar"/>
+                            </Component>
+                            <Component Guid="d0183fa8-3177-41a5-82ab-2d2d4be56321" Id="_185" Win64="yes">
+                                <File Id="_185f" KeyPath="yes" Name="meta-index" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\meta-index"/>
+                            </Component>
+                            <Component Guid="a9e034a5-fd1c-4101-a966-28fdd672e919" Id="_186" Win64="yes">
+                                <File Id="_186f" KeyPath="yes" Name="nashorn.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\nashorn.jar"/>
+                            </Component>
+                            <Component Guid="94c678a6-53f1-4a85-b1cc-e798df476529" Id="_187" Win64="yes">
+                                <File Id="_187f" KeyPath="yes" Name="sunec.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\sunec.jar"/>
+                            </Component>
+                            <Component Guid="8f45b858-427b-410d-bfd2-673ce4f40076" Id="_188" Win64="yes">
+                                <File Id="_188f" KeyPath="yes" Name="sunjce_provider.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\sunjce_provider.jar"/>
+                            </Component>
+                            <Component Guid="d3f6ccfe-83f0-443c-b157-573cd9ad793b" Id="_189" Win64="yes">
+                                <File Id="_189f" KeyPath="yes" Name="sunmscapi.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\sunmscapi.jar"/>
+                            </Component>
+                            <Component Guid="826ac4df-81e5-4487-bb14-0782c07dae51" Id="_190" Win64="yes">
+                                <File Id="_190f" KeyPath="yes" Name="sunpkcs11.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\sunpkcs11.jar"/>
+                            </Component>
+                            <Component Guid="3b289711-b0d6-490e-9329-3b0074834e5a" Id="_191" Win64="yes">
+                                <File Id="_191f" KeyPath="yes" Name="zipfs.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\ext\zipfs.jar"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="ff2749b9-a847-4b98-9590-137a4ae39aeb" Id="_192" Win64="yes">
+                            <File Id="_192f" KeyPath="yes" Name="flavormap.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\flavormap.properties"/>
+                        </Component>
+                        <Component Guid="5a726db4-1dd3-43b4-8c0f-fb09b32e818f" Id="_193" Win64="yes">
+                            <File Id="_193f" KeyPath="yes" Name="fontconfig.bfc" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fontconfig.bfc"/>
+                        </Component>
+                        <Component Guid="9c40cc59-379c-4dc5-b79d-506e3426f942" Id="_194" Win64="yes">
+                            <File Id="_194f" KeyPath="yes" Name="fontconfig.properties.src" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fontconfig.properties.src"/>
+                        </Component>
+                        <Directory Id="_195" Name="fonts">
+                            <Component Guid="aae03e39-52bb-402b-bb59-abdedef9c6e5" Id="_196" Win64="yes">
+                                <File Id="_196f" KeyPath="yes" Name="LucidaBrightDemiBold.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaBrightDemiBold.ttf"/>
+                            </Component>
+                            <Component Guid="c79f8fbd-096d-4be6-ae24-c9280d46b6e7" Id="_197" Win64="yes">
+                                <File Id="_197f" KeyPath="yes" Name="LucidaBrightDemiItalic.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaBrightDemiItalic.ttf"/>
+                            </Component>
+                            <Component Guid="3803aab6-5d79-44c1-acc7-472894161e04" Id="_198" Win64="yes">
+                                <File Id="_198f" KeyPath="yes" Name="LucidaBrightItalic.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaBrightItalic.ttf"/>
+                            </Component>
+                            <Component Guid="6c82996e-0f24-45b6-bf79-1fa01c83bdf8" Id="_199" Win64="yes">
+                                <File Id="_199f" KeyPath="yes" Name="LucidaBrightRegular.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaBrightRegular.ttf"/>
+                            </Component>
+                            <Component Guid="3eaae866-29de-47b5-ab0b-c09bed507cd4" Id="_200" Win64="yes">
+                                <File Id="_200f" KeyPath="yes" Name="LucidaSansDemiBold.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaSansDemiBold.ttf"/>
+                            </Component>
+                            <Component Guid="92b1513d-8955-478e-853a-ea36bfd2ac83" Id="_201" Win64="yes">
+                                <File Id="_201f" KeyPath="yes" Name="LucidaSansRegular.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaSansRegular.ttf"/>
+                            </Component>
+                            <Component Guid="b4112aa2-77f8-46e1-81bf-31c378d1ac62" Id="_202" Win64="yes">
+                                <File Id="_202f" KeyPath="yes" Name="LucidaTypewriterBold.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaTypewriterBold.ttf"/>
+                            </Component>
+                            <Component Guid="af269938-198c-4027-86b8-6a89b0c73759" Id="_203" Win64="yes">
+                                <File Id="_203f" KeyPath="yes" Name="LucidaTypewriterRegular.ttf" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\fonts\LucidaTypewriterRegular.ttf"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="8eda21d7-453c-4724-b215-b237117f0994" Id="_204" Win64="yes">
+                            <File Id="_204f" KeyPath="yes" Name="hijrah-config-umalqura.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\hijrah-config-umalqura.properties"/>
+                        </Component>
+                        <Directory Id="_205" Name="images">
+                            <Directory Id="_206" Name="cursors">
+                                <Component Guid="935c28fa-dfda-4ee9-9873-3dd459195c9d" Id="_207" Win64="yes">
+                                    <File Id="_207f" KeyPath="yes" Name="cursors.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\cursors.properties"/>
+                                </Component>
+                                <Component Guid="876914a9-b5f6-43e0-beb7-afc169a1fa12" Id="_208" Win64="yes">
+                                    <File Id="_208f" KeyPath="yes" Name="invalid32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\invalid32x32.gif"/>
+                                </Component>
+                                <Component Guid="4957665b-33bc-4e2c-90b3-123f37828306" Id="_209" Win64="yes">
+                                    <File Id="_209f" KeyPath="yes" Name="win32_CopyDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\win32_CopyDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="b3bca561-7d71-48ea-933e-7c7ea3002e2a" Id="_210" Win64="yes">
+                                    <File Id="_210f" KeyPath="yes" Name="win32_CopyNoDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="4950b8de-abc6-46b8-aa9e-50e7a8554944" Id="_211" Win64="yes">
+                                    <File Id="_211f" KeyPath="yes" Name="win32_LinkDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\win32_LinkDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="251b5369-11bc-4499-b6cf-028dd40f8f24" Id="_212" Win64="yes">
+                                    <File Id="_212f" KeyPath="yes" Name="win32_LinkNoDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="6c077820-7ba8-47d7-883f-72b1d4c22412" Id="_213" Win64="yes">
+                                    <File Id="_213f" KeyPath="yes" Name="win32_MoveDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\win32_MoveDrop32x32.gif"/>
+                                </Component>
+                                <Component Guid="38f0c2f5-66d1-4c91-ba3e-b606fcd5ce16" Id="_214" Win64="yes">
+                                    <File Id="_214f" KeyPath="yes" Name="win32_MoveNoDrop32x32.gif" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif"/>
+                                </Component>
+                            </Directory>
+                        </Directory>
+                        <Component Guid="cce0db9e-4186-46c7-9298-38ff843abac8" Id="_215" Win64="yes">
+                            <File Id="_215f" KeyPath="yes" Name="javafx.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\javafx.properties"/>
+                        </Component>
+                        <Component Guid="bd5945b5-92fa-42a9-a580-1dc8257bb5c3" Id="_216" Win64="yes">
+                            <File Id="_216f" KeyPath="yes" Name="javaws.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\javaws.jar"/>
+                        </Component>
+                        <Component Guid="aa5d8b2d-cc33-4e8a-abbd-4f11c1ddad18" Id="_217" Win64="yes">
+                            <File Id="_217f" KeyPath="yes" Name="jce.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\jce.jar"/>
+                        </Component>
+                        <Directory Id="_218" Name="jfr">
+                            <Component Guid="e8a75dfa-adf6-498b-b7f5-4ddf9e381c92" Id="_219" Win64="yes">
+                                <File Id="_219f" KeyPath="yes" Name="default.jfc" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\jfr\default.jfc"/>
+                            </Component>
+                            <Component Guid="a5d869d1-6fb1-46ba-a66f-0f0184b9ff25" Id="_220" Win64="yes">
+                                <File Id="_220f" KeyPath="yes" Name="profile.jfc" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\jfr\profile.jfc"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="a37d664e-f1ea-4913-bf4b-48efabb240e9" Id="_221" Win64="yes">
+                            <File Id="_221f" KeyPath="yes" Name="jfr.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\jfr.jar"/>
+                        </Component>
+                        <Component Guid="79a32d14-42db-4719-a360-8453c009a9fb" Id="_222" Win64="yes">
+                            <File Id="_222f" KeyPath="yes" Name="jfxswt.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\jfxswt.jar"/>
+                        </Component>
+                        <Component Guid="0f1c7f9a-fa21-4744-8416-571c55f0fa92" Id="_223" Win64="yes">
+                            <File Id="_223f" KeyPath="yes" Name="jsse.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\jsse.jar"/>
+                        </Component>
+                        <Component Guid="863dc019-7dbb-4c30-8451-c6047f5d1a0e" Id="_224" Win64="yes">
+                            <File Id="_224f" KeyPath="yes" Name="jvm.hprof.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\jvm.hprof.txt"/>
+                        </Component>
+                        <Component Guid="430bc0ee-e126-4a97-99e1-765bb4975e46" Id="_225" Win64="yes">
+                            <File Id="_225f" KeyPath="yes" Name="logging.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\logging.properties"/>
+                        </Component>
+                        <Directory Id="_226" Name="management">
+                            <Component Guid="5753c33a-1176-4a99-8c96-138de79edb11" Id="_227" Win64="yes">
+                                <File Id="_227f" KeyPath="yes" Name="jmxremote.access" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\management\jmxremote.access"/>
+                            </Component>
+                            <Component Guid="2466b102-098c-4e0a-a172-400c5cb55499" Id="_228" Win64="yes">
+                                <File Id="_228f" KeyPath="yes" Name="jmxremote.password.template" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\management\jmxremote.password.template"/>
+                            </Component>
+                            <Component Guid="e2f65438-19ba-4cdb-b1fa-f4c8968d94f4" Id="_229" Win64="yes">
+                                <File Id="_229f" KeyPath="yes" Name="management.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\management\management.properties"/>
+                            </Component>
+                            <Component Guid="6dbc3fb5-b17f-4ef8-8e57-08ba147ee8eb" Id="_230" Win64="yes">
+                                <File Id="_230f" KeyPath="yes" Name="snmp.acl.template" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\management\snmp.acl.template"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="60669abf-b6df-4ed2-8c66-b1b3cc691e89" Id="_231" Win64="yes">
+                            <File Id="_231f" KeyPath="yes" Name="management-agent.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\management-agent.jar"/>
+                        </Component>
+                        <Component Guid="34179624-57a9-4758-a163-4a1767c20bd0" Id="_232" Win64="yes">
+                            <File Id="_232f" KeyPath="yes" Name="meta-index" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\meta-index"/>
+                        </Component>
+                        <Component Guid="92dc90da-648a-4efb-9d28-fdfbcbba320a" Id="_233" Win64="yes">
+                            <File Id="_233f" KeyPath="yes" Name="net.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\net.properties"/>
+                        </Component>
+                        <Component Guid="066f072e-5785-43e9-bc74-a686885fc87f" Id="_234" Win64="yes">
+                            <File Id="_234f" KeyPath="yes" Name="plugin.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\plugin.jar"/>
+                        </Component>
+                        <Component Guid="76f44c63-fd02-411c-af38-7e9330e5076f" Id="_235" Win64="yes">
+                            <File Id="_235f" KeyPath="yes" Name="psfont.properties.ja" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\psfont.properties.ja"/>
+                        </Component>
+                        <Component Guid="d6b7e0e8-8d14-4162-a268-acb1b9580a36" Id="_236" Win64="yes">
+                            <File Id="_236f" KeyPath="yes" Name="psfontj2d.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\psfontj2d.properties"/>
+                        </Component>
+                        <Component Guid="42f3b123-0f49-4fa5-8880-961d44108e2e" Id="_237" Win64="yes">
+                            <File Id="_237f" KeyPath="yes" Name="resources.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\resources.jar"/>
+                        </Component>
+                        <Component Guid="a342c794-31f1-49c6-947a-772c30952db4" Id="_238" Win64="yes">
+                            <File Id="_238f" KeyPath="yes" Name="rt.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\rt.jar"/>
+                        </Component>
+                        <Directory Id="_239" Name="security">
+                            <Component Guid="9e659c4c-c8c0-4ade-a734-e0b3aa304a4d" Id="_240" Win64="yes">
+                                <File Id="_240f" KeyPath="yes" Name="blacklist" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\blacklist"/>
+                            </Component>
+                            <Component Guid="3fac21bb-8f53-415d-b33d-03f3ffaa9869" Id="_241" Win64="yes">
+                                <File Id="_241f" KeyPath="yes" Name="blacklisted.certs" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\blacklisted.certs"/>
+                            </Component>
+                            <Component Guid="69db1438-1072-461f-939e-16f3fd1ded0f" Id="_242" Win64="yes">
+                                <File Id="_242f" KeyPath="yes" Name="cacerts" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\cacerts"/>
+                            </Component>
+                            <Component Guid="d18baa66-b8a4-4ec8-b0bb-eeff26aa4c99" Id="_243" Win64="yes">
+                                <File Id="_243f" KeyPath="yes" Name="java.policy" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\java.policy"/>
+                            </Component>
+                            <Component Guid="d03c2b87-626a-467f-9b8a-c796d4644c04" Id="_244" Win64="yes">
+                                <File Id="_244f" KeyPath="yes" Name="java.security" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\java.security"/>
+                            </Component>
+                            <Component Guid="79e03519-2fa8-4c67-8bed-acd19fa8e2c8" Id="_245" Win64="yes">
+                                <File Id="_245f" KeyPath="yes" Name="javaws.policy" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\javaws.policy"/>
+                            </Component>
+                            <Directory Id="_246" Name="policy">
+                                <Directory Id="_247" Name="limited">
+                                    <Component Guid="1922fa2f-eeb0-475f-a12e-47bd6a918063" Id="_248" Win64="yes">
+                                        <File Id="_248f" KeyPath="yes" Name="local_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\policy\limited\local_policy.jar"/>
+                                    </Component>
+                                    <Component Guid="167d1931-131a-4ae6-b355-98808f9b7860" Id="_249" Win64="yes">
+                                        <File Id="_249f" KeyPath="yes" Name="US_export_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\policy\limited\US_export_policy.jar"/>
+                                    </Component>
+                                </Directory>
+                                <Directory Id="_250" Name="unlimited">
+                                    <Component Guid="8792d6d0-2b9b-442c-82c8-d701f2d7e5fe" Id="_251" Win64="yes">
+                                        <File Id="_251f" KeyPath="yes" Name="local_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\policy\unlimited\local_policy.jar"/>
+                                    </Component>
+                                    <Component Guid="52cb40a7-ef11-46bc-adb8-bd3c631ca35d" Id="_252" Win64="yes">
+                                        <File Id="_252f" KeyPath="yes" Name="US_export_policy.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\policy\unlimited\US_export_policy.jar"/>
+                                    </Component>
+                                </Directory>
+                            </Directory>
+                            <Component Guid="654027da-f41f-4b47-8031-efae5d5ab744" Id="_253" Win64="yes">
+                                <File Id="_253f" KeyPath="yes" Name="public_suffix_list.dat" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\public_suffix_list.dat"/>
+                            </Component>
+                            <Component Guid="95fa2e18-7d4f-42f3-806c-0b89956a07bb" Id="_254" Win64="yes">
+                                <File Id="_254f" KeyPath="yes" Name="trusted.libraries" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\security\trusted.libraries"/>
+                            </Component>
+                        </Directory>
+                        <Component Guid="01e12818-caf0-40c1-925b-8d52c71fddcb" Id="_255" Win64="yes">
+                            <File Id="_255f" KeyPath="yes" Name="sound.properties" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\sound.properties"/>
+                        </Component>
+                        <Component Guid="e3d006cf-a655-46d2-ab47-606f5a95876c" Id="_256" Win64="yes">
+                            <File Id="_256f" KeyPath="yes" Name="tools.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\tools.jar"/>
+                        </Component>
+                        <Component Guid="29d7c2ab-e75e-44c4-a317-e6d124d58aa6" Id="_257" Win64="yes">
+                            <File Id="_257f" KeyPath="yes" Name="tzdb.dat" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\tzdb.dat"/>
+                        </Component>
+                        <Component Guid="059584c3-60e3-4c62-b6d7-3d2a349b0dd7" Id="_258" Win64="yes">
+                            <File Id="_258f" KeyPath="yes" Name="tzmappings" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\lib\tzmappings"/>
+                        </Component>
+                    </Directory>
+                    <Component Guid="482cbb5c-b826-46ee-80a9-bba90d65dc13" Id="_259" Win64="yes">
+                        <File Id="_259f" KeyPath="yes" Name="LICENSE" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\LICENSE"/>
+                    </Component>
+                    <Component Guid="1056e82c-01cc-4790-bb7f-5f08e0199eae" Id="_260" Win64="yes">
+                        <File Id="_260f" KeyPath="yes" Name="README.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\README.txt"/>
+                    </Component>
+                    <Component Guid="6f088668-a7a2-4527-b239-60ea92864f7e" Id="_261" Win64="yes">
+                        <File Id="_261f" KeyPath="yes" Name="release" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\release"/>
+                    </Component>
+                    <Component Guid="460ba666-3183-43ed-b7cd-c3b7ce14e6f4" Id="_262" Win64="yes">
+                        <File Id="_262f" KeyPath="yes" Name="THIRDPARTYLICENSEREADME-JAVAFX.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt"/>
+                    </Component>
+                    <Component Guid="e5834beb-bb82-4505-a37c-90d5ff2869a2" Id="_263" Win64="yes">
+                        <File Id="_263f" KeyPath="yes" Name="THIRDPARTYLICENSEREADME.txt" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\THIRDPARTYLICENSEREADME.txt"/>
+                    </Component>
+                    <Component Guid="a8041952-393b-4c3b-afb4-27e4770d0760" Id="_264" Win64="yes">
+                        <File Id="_264f" KeyPath="yes" Name="Welcome.html" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\jre\Welcome.html"/>
+                    </Component>
+                </Directory>
+                <Directory Id="_265" Name="libs">
+                    <Component Guid="36ed4b4a-4dc7-45ba-a7ce-69f212131bc5" Id="_266" Win64="yes">
+                        <File Id="_266f" KeyPath="yes" Name="gson-2.8.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\gson-2.8.1.jar"/>
+                    </Component>
+                    <Component Guid="112a0260-d104-4230-92b9-88e10674de61" Id="_267" Win64="yes">
+                        <File Id="_267f" KeyPath="yes" Name="Heart-7.4.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\Heart-7.4.1.jar"/>
+                    </Component>
+                    <Component Guid="6f1b3139-7fbf-4160-b924-397a1a8dbb3b" Id="_268" Win64="yes">
+                        <File Id="_268f" KeyPath="yes" Name="j-ogg-all-1.0.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\j-ogg-all-1.0.1.jar"/>
+                    </Component>
+                    <Component Guid="4dcd7f10-ff5a-4d40-bb24-1283a585e123" Id="_269" Win64="yes">
+                        <File Id="_269f" KeyPath="yes" Name="jinput-2.0.9-natives-all.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jinput-2.0.9-natives-all.jar"/>
+                    </Component>
+                    <Component Guid="6614e24a-6e51-4090-8538-6274b7aa647a" Id="_270" Win64="yes">
+                        <File Id="_270f" KeyPath="yes" Name="jinput-2.0.9.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jinput-2.0.9.jar"/>
+                    </Component>
+                    <Component Guid="03209dd5-49f9-4dd1-bb07-f71c188c4109" Id="_271" Win64="yes">
+                        <File Id="_271f" KeyPath="yes" Name="jme3-core-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-core-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="cd9cdd8a-6738-4888-aa84-0deb3b3df2d2" Id="_272" Win64="yes">
+                        <File Id="_272f" KeyPath="yes" Name="jme3-desktop-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-desktop-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="2c7b5792-c58c-491f-900b-ef55c39127a8" Id="_273" Win64="yes">
+                        <File Id="_273f" KeyPath="yes" Name="jme3-effects-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-effects-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="bf33681e-c2bb-49a1-88ac-a506395273d8" Id="_274" Win64="yes">
+                        <File Id="_274f" KeyPath="yes" Name="jme3-jogg-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-jogg-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="908852fa-51d3-4de5-9707-77abe2f38078" Id="_275" Win64="yes">
+                        <File Id="_275f" KeyPath="yes" Name="jme3-lwjgl-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-lwjgl-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="403b1f4b-70d4-47c0-b198-85e50b429867" Id="_276" Win64="yes">
+                        <File Id="_276f" KeyPath="yes" Name="jme3-networking-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-networking-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="379d9c9e-8c81-461b-905d-3bdc2225ff91" Id="_277" Win64="yes">
+                        <File Id="_277f" KeyPath="yes" Name="jme3-plugins-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-plugins-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="6abc8ada-992f-4280-afc8-26b5bd6f44a7" Id="_278" Win64="yes">
+                        <File Id="_278f" KeyPath="yes" Name="jme3-terrain-3.5.1-stable.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jme3-terrain-3.5.1-stable.jar"/>
+                    </Component>
+                    <Component Guid="6623f8cb-28db-4db8-b635-2814e035d04b" Id="_279" Win64="yes">
+                        <File Id="_279f" KeyPath="yes" Name="jmf-2.1.1e.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\jmf-2.1.1e.jar"/>
+                    </Component>
+                    <Component Guid="20567230-d132-483f-8a4d-603804566e1f" Id="_280" Win64="yes">
+                        <File Id="_280f" KeyPath="yes" Name="lwjgl-2.9.3.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\lwjgl-2.9.3.jar"/>
+                    </Component>
+                    <Component Guid="174dc220-c37e-46e6-baa6-abb8e600add4" Id="_281" Win64="yes">
+                        <File Id="_281f" KeyPath="yes" Name="lwjgl-platform-2.9.3-natives-linux.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\lwjgl-platform-2.9.3-natives-linux.jar"/>
+                    </Component>
+                    <Component Guid="1f19c782-c1b6-4f73-bafd-5adad5a7d2bb" Id="_282" Win64="yes">
+                        <File Id="_282f" KeyPath="yes" Name="lwjgl-platform-2.9.3-natives-osx.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\lwjgl-platform-2.9.3-natives-osx.jar"/>
+                    </Component>
+                    <Component Guid="7aac55bc-a70d-4a36-9deb-593b077d6083" Id="_283" Win64="yes">
+                        <File Id="_283f" KeyPath="yes" Name="lwjgl-platform-2.9.3-natives-windows.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\lwjgl-platform-2.9.3-natives-windows.jar"/>
+                    </Component>
+                    <Component Guid="0d475c2c-4f2f-4abb-b9fd-9fe51def6708" Id="_284" Win64="yes">
+                        <File Id="_284f" KeyPath="yes" Name="Minie-4.8.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\Minie-4.8.1.jar"/>
+                    </Component>
+                    <Component Guid="15229ca4-c549-479e-9919-951bb474bbd7" Id="_285" Win64="yes">
+                        <File Id="_285f" KeyPath="yes" Name="sim-math-1.4.1.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\sim-math-1.4.1.jar"/>
+                    </Component>
+                    <Component Guid="815f0141-14b3-468a-8c27-00e995d4b936" Id="_286" Win64="yes">
+                        <File Id="_286f" KeyPath="yes" Name="slf4j-api-1.7.13.jar" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\libs\slf4j-api-1.7.13.jar"/>
+                    </Component>
+                </Directory>
+                <Component Guid="886acbe7-64ec-4f16-86bd-24eec5e46d7c" Id="_287" Win64="yes">
+                    <File Id="_287f" KeyPath="yes" Name="LICENSE" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\LICENSE"/>
+                </Component>
+                <Component Guid="adc1796f-85f4-404f-927b-883bc1747724" Id="_288" Win64="yes">
+                    <File Id="exeFile" KeyPath="yes" Name="umgggO SERVER.exe" Source="C:\Users\d7d7a\Documents\BasicGame-on-Gradle-master\build\umgggO SERVER\umgggO SERVER.exe">
+                        <Shortcut Description="umgggO SERVER" Directory="ProgramMenuFolder" Id="ApplicationStartMenuShortcut" Name="umgggO SERVER"/>
+                    </File>
+                    <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+                    <RegistryValue Key="Software\DGC Productions\umgggO SERVER" Name="installed" Root="HKLM" Type="integer" Value="1"/>
+                </Component>
+            </Directory>
+            <Directory Id="ProgramMenuFolder"/>
+            <Component Guid="647ec520-59c3-4454-a5ea-ca4e7cd90194" Id="RegistryEntries"/>
+        </Directory>
+    </Module>
+</Wix>

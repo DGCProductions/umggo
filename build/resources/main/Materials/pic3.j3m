@@ -1,0 +1,9 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip "Textures/picture3.png"
+        UseMaterialColors : false
+     }
+    AdditionalRenderState {
+      Blend AlphaAdditive
+    }
+}

@@ -1,0 +1,12 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        Ambient : 0.25 0.25 0.25 1.0
+        Diffuse : 0.25 0.25 0.25 1.0
+        UseMaterialColors : true
+        DiffuseMap : Repeat "Textures/metalfloor.jpg"
+        NormalMap : Repeat "Textures/metalfloor-NormalMap.png"
+        SpecularMap : Repeat "Textures/metalfloor-SpecularMap.png"
+     }
+    AdditionalRenderState {
+    }
+}

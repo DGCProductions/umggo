@@ -38,3 +38,5 @@ you can download it from
  2. Select "Run".
 
 Assets your game requires can be added to src/main/resources folder.
+
+*epic*
